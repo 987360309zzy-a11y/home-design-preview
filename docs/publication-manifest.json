@@ -774,11 +774,73 @@
       "file": "index.html",
       "original_file": "方案预览.html",
       "original_sha256": "3aa13bf527523de327578054acfdedcc72826541811f5603246c9c19a7d98fb6",
-      "published_sha256": "c69336d703c9cd080681cafc5012dabff8b4c56ec803613925c1851e42363528",
-      "size_bytes": 36688,
+      "published_sha256": "801d9cce81f1dcdb02d7fe3bb859c2154dca24a6e6553e2121a27cb3d7cff51a",
+      "size_bytes": 39828,
       "transformation": {
-        "public_paths_and_assets_revised": true
+        "public_paths_and_assets_revised": true,
+        "interactive_viewer_added": true
       }
+    },
+    {
+      "file": "vendor/model-viewer-4.3.1.min.js",
+      "original_file": null,
+      "original_sha256": null,
+      "transformation": {
+        "purpose": "interactive 3D viewer"
+      },
+      "published_sha256": "283b0672384614b4847636c306fc93fe4b1fcadc76d668b4e47f0ca76bcf033b",
+      "size_bytes": 1068903
+    },
+    {
+      "file": "vendor/model-viewer-LICENSE.txt",
+      "original_file": null,
+      "original_sha256": null,
+      "transformation": {
+        "purpose": "interactive 3D viewer"
+      },
+      "published_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_bytes": 11358
+    },
+    {
+      "file": "vendor/provenance.json",
+      "original_file": null,
+      "original_sha256": null,
+      "transformation": {
+        "purpose": "interactive 3D viewer"
+      },
+      "published_sha256": "2f3ad3250b6ea8cdd8d7fa700f5ad3a8690dc013455efc6b98c233cbde8f391c",
+      "size_bytes": 386
+    },
+    {
+      "file": "viewer.css",
+      "original_file": null,
+      "original_sha256": null,
+      "transformation": {
+        "purpose": "interactive 3D viewer"
+      },
+      "published_sha256": "660f732e2c694b69a03562b305cea618e10842be98edcc160ad34f9450bb57bb",
+      "size_bytes": 2607
+    },
+    {
+      "file": "viewer.js",
+      "original_file": null,
+      "original_sha256": null,
+      "transformation": {
+        "purpose": "interactive 3D viewer"
+      },
+      "published_sha256": "9885af215146f06594e5044780a212dd72cb3acd0e54e7bd8bbead3106a5afbb",
+      "size_bytes": 5140
     }
-  ]
+  ],
+  "interactive_3d": {
+    "viewer": "@google/model-viewer 4.3.1",
+    "self_hosted": true,
+    "default_model": "apartment-design-cutaway.glb",
+    "available_models": 4,
+    "model_geometry_unchanged": true,
+    "floor_texture_unchanged": true,
+    "procedural_material_preview": "Six named original material base colors applied in browser only; no texture baking",
+    "default_camera_orbit": "45deg 35deg 105%",
+    "preview_material_source": "Original V10 Blender diffuse_color and Principled defaults; linear RGBA, only named materials without baseColorTexture"
+  }
 }
