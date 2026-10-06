@@ -1,0 +1,826 @@
+[
+  {
+    "version": 10,
+    "image": "01-dining.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_Dining_v10",
+    "camera_lens_mm": 24.0,
+    "camera_location_m": [
+      3.5,
+      7.349999904632568,
+      1.5299999713897705
+    ],
+    "camera_rotation_rad": [
+      1.5199192762374878,
+      1.870828825190074e-08,
+      -1.35120689868927
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "9ddd67b54f4e6cabfaaea3e1437657d8aec1983ec6171b80a8d7fd56354b277b",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "02-living.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_TV_v8",
+    "camera_lens_mm": 26.0,
+    "camera_location_m": [
+      3.950000047683716,
+      3.450000047683716,
+      1.5499999523162842
+    ],
+    "camera_rotation_rad": [
+      1.457160234451294,
+      2.3053834397046558e-08,
+      -1.6753315925598145
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "bd7ad18e05391dbb18684a4a7f7db105a37b37f9e5447af6325b347814af3536",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "03-study.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_Study_reference",
+    "camera_lens_mm": 18.0,
+    "camera_location_m": [
+      9.050000190734863,
+      8.859999656677246,
+      1.5
+    ],
+    "camera_rotation_rad": [
+      1.4980252981185913,
+      -3.034482176644815e-08,
+      0.29045939445495605
+    ],
+    "camera_render_override": true,
+    "camera_override_note": "Room internal render-only camera correction; source BLEND not changed",
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "f092c955688ed3fff3e994e2e59571744c72bf3cd82d31dfdd105c778024389c",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "04-master.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_Master_reference",
+    "camera_lens_mm": 19.0,
+    "camera_location_m": [
+      7.800000190734863,
+      4.028571605682373,
+      1.5399999618530273
+    ],
+    "camera_rotation_rad": [
+      1.5541936159133911,
+      1.923634300737831e-07,
+      -2.5588533878326416
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "242cc1938fd63263f492d3ef6c12c394529f03c63839bc4f858733c281c9752e",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "05-laundry.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_BathA_south_v10",
+    "camera_lens_mm": 11.699999809265137,
+    "camera_location_m": [
+      3.2799999713897705,
+      10.079999923706055,
+      1.156000018119812
+    ],
+    "camera_rotation_rad": [
+      1.5707963705062866,
+      -3.8457766748933864e-08,
+      2.2985661029815674
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "69147d30ea1cc852d771b61fd7e99aefb928c45f89b435905388e0ab0bd4366f",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "06-laundry-vanity.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_BathA_west_v10",
+    "camera_lens_mm": 18.0,
+    "camera_location_m": [
+      3.259999990463257,
+      9.899999618530273,
+      1.1799999475479126
+    ],
+    "camera_rotation_rad": [
+      1.4842331409454346,
+      -3.0739150114200697e-10,
+      1.674450159072876
+    ],
+    "camera_render_override": true,
+    "camera_override_note": "Room internal render-only camera correction; source BLEND not changed",
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "03d01610825f75fb608c8318a51b26abc230f2e12b3b1b44da45c70deac8302d",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "07-wardrobe-interior.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_V8_S01_wardrobe_internal",
+    "camera_lens_mm": 18.0,
+    "camera_location_m": [
+      9.6899995803833,
+      10.020000457763672,
+      1.4199999570846558
+    ],
+    "camera_rotation_rad": [
+      1.53673255443573,
+      3.419424743356103e-08,
+      1.5991981029510498
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [
+      "V8_S01_main_bay1_leaf1_recessed_grip",
+      "V8_S01_main_bay1_leaf1_white_door",
+      "V8_S01_main_bay2_leaf1_recessed_grip",
+      "V8_S01_main_bay2_leaf1_white_door",
+      "V8_S01_main_bay3_leaf1_recessed_grip",
+      "V8_S01_main_bay3_leaf1_white_door",
+      "V8_S01_return_bay1_leaf1_recessed_grip",
+      "V8_S01_return_bay1_leaf1_white_door"
+    ],
+    "interior_view_hides_fronts": true,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "3d9c587d69cfd12b70612048b4f7475fe38f9749dfb81ba8a919d98d0c077771",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "08-overview.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_South_east",
+    "camera_lens_mm": 50.0,
+    "camera_location_m": [
+      19.0,
+      -15.0,
+      24.0
+    ],
+    "camera_rotation_rad": [
+      0.8107768297195435,
+      -5.234250721741773e-08,
+      0.5718643665313721
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "2a35d1a17ff7354efc3f08c6d85b3a27ba0bcefe9523dd85e2a4b1b5e2ae4d15",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "09-plan.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_Plan",
+    "camera_lens_mm": 50.0,
+    "camera_location_m": [
+      5.420000076293945,
+      6.079999923706055,
+      25.0
+    ],
+    "camera_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      900,
+      1080
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "1200227fd552bfbf6fd68e1239dacc8f3b14ad12e4d1acc01f19e7cb56670687",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "10-bedroomB-interior.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_V10_B_L_internal",
+    "camera_lens_mm": 18.0,
+    "camera_location_m": [
+      2.680000066757202,
+      3.7799999713897705,
+      1.4700000286102295
+    ],
+    "camera_rotation_rad": [
+      1.4629255533218384,
+      3.93680146260067e-08,
+      0.794407069683075
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [
+      "V10_C05_main_bay1_leaf1_recessed_grip",
+      "V10_C05_main_bay1_leaf1_white_door",
+      "V10_C05_main_bay2_leaf1_recessed_grip",
+      "V10_C05_main_bay2_leaf1_white_door",
+      "V10_C05_north_return_bay1_leaf1_recessed_grip",
+      "V10_C05_north_return_bay1_leaf1_white_door",
+      "V10_C05_north_return_bay2_leaf1_recessed_grip",
+      "V10_C05_north_return_bay2_leaf1_white_door"
+    ],
+    "interior_view_hides_fronts": true,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "8b2860e51232ca728ad70b8bbad1b61a50a49970c712e5e06224540aaca3e4cc",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "11-master-wardrobe.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_V10_C_L_internal",
+    "camera_lens_mm": 18.0,
+    "camera_location_m": [
+      9.199999809265137,
+      2.25,
+      1.4800000190734863
+    ],
+    "camera_rotation_rad": [
+      1.5071473121643066,
+      2.8333161594673584e-08,
+      -0.20632381737232208
+    ],
+    "camera_render_override": true,
+    "camera_override_note": "Room internal render-only camera correction; source BLEND not changed",
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [
+      "V10_C06_east_return_bay1_leaf1_recessed_grip",
+      "V10_C06_east_return_bay1_leaf1_white_door",
+      "V10_C06_east_return_bay2_leaf1_recessed_grip",
+      "V10_C06_east_return_bay2_leaf1_white_door",
+      "V10_C06_main_bay1_leaf1_recessed_grip",
+      "V10_C06_main_bay1_leaf1_white_door",
+      "V10_C06_main_bay1_leaf2_recessed_grip",
+      "V10_C06_main_bay1_leaf2_white_door",
+      "V10_C06_main_bay2_leaf1_recessed_grip",
+      "V10_C06_main_bay2_leaf1_white_door",
+      "V10_C06_main_bay2_leaf2_recessed_grip",
+      "V10_C06_main_bay2_leaf2_white_door"
+    ],
+    "interior_view_hides_fronts": true,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "db4636d0bbdd2f4ac45068b3050e24277fd50c570238f4b90e58cce7840728f5",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "12-windowB.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_V10_B_window_white",
+    "camera_lens_mm": 25.0,
+    "camera_location_m": [
+      2.4200000762939453,
+      1.8799999952316284,
+      1.149999976158142
+    ],
+    "camera_rotation_rad": [
+      1.081620454788208,
+      -5.461367891257396e-08,
+      2.693816661834717
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "28f9527300644efb7fba0f06ec4c88fa8cb6b4a8c11f3af9299cc2c299fd32ee",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "13-entry.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_Entry_v10",
+    "camera_lens_mm": 19.0,
+    "camera_location_m": [
+      1.7300000190734863,
+      6.909999847412109,
+      1.4299999475479126
+    ],
+    "camera_rotation_rad": [
+      1.4553996324539185,
+      -1.3855527836170722e-11,
+      -0.9895616769790649
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "075aa3aa9563915427dc5fe201e8f6ca7e85c02b94db06aa30ef0b38e0af34ad",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "14-sideboard-detail.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_Sideboard_v10",
+    "camera_lens_mm": 22.0,
+    "camera_location_m": [
+      4.039999961853027,
+      7.679999828338623,
+      1.4800000190734863
+    ],
+    "camera_rotation_rad": [
+      1.5435019731521606,
+      -3.504095147377484e-08,
+      -1.4269688129425049
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      840,
+      1120
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [
+      "Dining_chair_1",
+      "Dining_chair_1_back",
+      "Dining_chair_1_leg",
+      "Dining_chair_1_leg.001",
+      "Dining_chair_1_leg.002",
+      "Dining_chair_1_leg.003",
+      "Dining_chair_1_seat",
+      "Dining_chair_2",
+      "Dining_chair_2_back",
+      "Dining_chair_2_leg",
+      "Dining_chair_2_leg.001",
+      "Dining_chair_2_leg.002",
+      "Dining_chair_2_leg.003",
+      "Dining_chair_2_seat",
+      "Dining_chair_3",
+      "Dining_chair_3_back",
+      "Dining_chair_3_leg",
+      "Dining_chair_3_leg.001",
+      "Dining_chair_3_leg.002",
+      "Dining_chair_3_leg.003",
+      "Dining_chair_3_seat",
+      "Dining_chair_4",
+      "Dining_chair_4_back",
+      "Dining_chair_4_leg",
+      "Dining_chair_4_leg.001",
+      "Dining_chair_4_leg.002",
+      "Dining_chair_4_leg.003",
+      "Dining_chair_4_seat",
+      "Dining_chair_5",
+      "Dining_chair_5_back",
+      "Dining_chair_5_leg",
+      "Dining_chair_5_leg.001",
+      "Dining_chair_5_leg.002",
+      "Dining_chair_5_leg.003",
+      "Dining_chair_5_seat",
+      "Dining_chair_6",
+      "Dining_chair_6_back",
+      "Dining_chair_6_leg",
+      "Dining_chair_6_leg.001",
+      "Dining_chair_6_leg.002",
+      "Dining_chair_6_leg.003",
+      "Dining_chair_6_seat",
+      "Dining_pendant",
+      "Dining_pendant_diffuser",
+      "Dining_table",
+      "Dining_table_center_bowl",
+      "Dining_table_leg",
+      "Dining_table_leg.001",
+      "Dining_table_leg.002",
+      "Dining_table_leg.003",
+      "Dining_table_plate",
+      "Dining_table_plate.001",
+      "Dining_table_plate.002",
+      "Dining_table_plate.003",
+      "Dining_table_top",
+      "Pendant_cable",
+      "Pendant_cable.001"
+    ],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": true,
+    "original_image_sha256": "680973de1e208a284d8d56a5d4beb526e14f8f7d067f0bc183108a4c0dc8d0d3",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "15-kitchen.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_Kitchen_U_v10",
+    "camera_lens_mm": 13.0,
+    "camera_location_m": [
+      6.400000095367432,
+      10.3100004196167,
+      1.7999999523162842
+    ],
+    "camera_rotation_rad": [
+      1.1228138208389282,
+      -8.541078955204284e-09,
+      0.614663302898407
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "d145dfeb8fff119af44044579e30ef040583c9351ea62d65a81022cf371c4c44",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "16-bathB.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_BathB_replanned_v10",
+    "camera_lens_mm": 15.0,
+    "camera_location_m": [
+      10.579999923706055,
+      6.025000095367432,
+      1.1699999570846558
+    ],
+    "camera_rotation_rad": [
+      1.496063232421875,
+      -6.002935482030125e-09,
+      0.7478883862495422
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "13750994d3cd366462ae541feb4d6cb596fc2e7fdd3c2fc4f46e6c019c34803f",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "17-showerA.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_BathA_north_shower_v10",
+    "camera_lens_mm": 16.0,
+    "camera_location_m": [
+      3.190000057220459,
+      9.970000267028809,
+      1.25
+    ],
+    "camera_rotation_rad": [
+      1.5707963705062866,
+      4.088845884098191e-08,
+      0.4899575412273407
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "cb760e0de11a3e654d2692ea84ca7af242ec374b11303903f37eb27505dc61ab",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "18-bedroomB-L.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_V10_B_L_closed",
+    "camera_lens_mm": 19.0,
+    "camera_location_m": [
+      2.7300000190734863,
+      3.4800000190734863,
+      1.4800000190734863
+    ],
+    "camera_rotation_rad": [
+      1.4811354875564575,
+      -6.477335290355768e-08,
+      0.7292773723602295
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "d5dfc56709b751c54ba4e7f4c5fe873a1ab7adbb8e9582e483997b405c4b7a45",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "19-master-L.png",
+    "variant": "conditional_short_wall_removal",
+    "camera": "CAM_V10_C_L_closed",
+    "camera_lens_mm": 18.0,
+    "camera_location_m": [
+      9.199999809265137,
+      2.25,
+      1.4800000190734863
+    ],
+    "camera_rotation_rad": [
+      1.5071473121643066,
+      2.8333161594673584e-08,
+      -0.20632381737232208
+    ],
+    "camera_render_override": true,
+    "camera_override_note": "Room internal render-only camera correction; source BLEND not changed",
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10.blend",
+    "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "3b6b1c60ae3e7f838a2afea5cd0bb8b774bf634f2a2e888d22a375615b8d8378",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "20-retained-wall-plan.png",
+    "variant": "retained_wall",
+    "camera": "CAM_Plan",
+    "camera_lens_mm": 50.0,
+    "camera_location_m": [
+      5.420000076293945,
+      6.079999923706055,
+      25.0
+    ],
+    "camera_rotation_rad": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      900,
+      1080
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10-retained-wall.blend",
+    "original_model_sha256": "f0b33381a817e58c0b3baea644ed368e5be0aa7b81926e31595fcf36922fc7d2",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "4487ab8fa5a38e314eb9f3ea99ba08ed642486a688b17bc8b5e85fd66fd24e67",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "version": 10,
+    "image": "21-retained-wall-C.png",
+    "variant": "retained_wall",
+    "camera": "CAM_V10_C_retained_wall",
+    "camera_lens_mm": 18.0,
+    "camera_location_m": [
+      8.140000343322754,
+      3.180000066757202,
+      1.4600000381469727
+    ],
+    "camera_rotation_rad": [
+      1.5234121084213257,
+      -8.680704866037559e-08,
+      -0.7671075463294983
+    ],
+    "camera_render_override": false,
+    "camera_override_note": null,
+    "resolution": [
+      1120,
+      840
+    ],
+    "samples": 24,
+    "draft": false,
+    "renderer": "Blender Cycles",
+    "generated_by_ai": false,
+    "model_filename": "apartment-design-v10-retained-wall.blend",
+    "original_model_sha256": "f0b33381a817e58c0b3baea644ed368e5be0aa7b81926e31595fcf36922fc7d2",
+    "original_design_sha256": "4bef8db9d611487142263a04f1774f51bf69a7a7dba39edb016fd11c4ac9d864",
+    "display_hidden_objects": [],
+    "interior_view_hides_fronts": false,
+    "display_view_hides_dining_furniture": false,
+    "original_image_sha256": "5a038eb1432e437326e578890479a9a4cdf206a5529060ddc6f4e9a990bb3655",
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  }
+]

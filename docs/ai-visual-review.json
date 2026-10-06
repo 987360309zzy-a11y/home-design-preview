@@ -1,0 +1,364 @@
+{
+  "version": 10,
+  "status": "completed_visual_review_with_recorded_differences",
+  "source_model": "apartment-design-v10.blend",
+  "original_source_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+  "selected_image_count": 4,
+  "selected_major_layout_drift_seen": false,
+  "images": [
+    {
+      "ai_image": "enhanced-dining.png",
+      "status": "acceptable_as_visual_reference_with_recorded_differences",
+      "selected_for_delivery": true,
+      "major_layout_drift_seen": false,
+      "checked_formal_model_render": "01-dining.png",
+      "actual_image_viewed": true,
+      "dimension_or_installation_evidence": false,
+      "preserved_layout": [
+        "餐边柜延至墙尾、左900宽对开冰箱位置、白柜与两玻璃上门/一白中门、胡桃台面背板、三抽和轨道三插座、餐桌椅及房门位置"
+      ],
+      "recorded_differences": [
+        "玻璃柜内盘杯被重绘为展示小物，不能计入柜内实物清单。",
+        "冰箱和饮水机控制面板、门缝及倒影重绘，木纹并非原照片逐像素复刻。",
+        "光照、色温、皮革和台面反射由AI增强，不能作为现场照度或色差依据。"
+      ],
+      "original_ai_image_sha256": "9ae24bc6027313edc8886c34e30e1d224b741956f48649dd78fde56c0749e4e3",
+      "original_formal_model_render_sha256": "9ddd67b54f4e6cabfaaea3e1437657d8aec1983ec6171b80a8d7fd56354b277b",
+      "anchor_image": "01-dining.png",
+      "original_anchor_image_sha256": "9ddd67b54f4e6cabfaaea3e1437657d8aec1983ec6171b80a8d7fd56354b277b",
+      "reviewed_reference_hashes": [
+        {
+          "file": "01-dining.png",
+          "original_sha256": "9ddd67b54f4e6cabfaaea3e1437657d8aec1983ec6171b80a8d7fd56354b277b"
+        },
+        {
+          "file": "reference-02-floor.jpg",
+          "original_sha256": "8b8d1f30d506948bb1728aaa1dd0c1a1ff412ecafe00291343f0f29b129251b8"
+        },
+        {
+          "file": "reference-sideboard-v7.jpg",
+          "original_sha256": "2c2c25b3c15e4dda9f6c0c80347c412741600120c3a827ec199d8ccc46a2a1d1"
+        }
+      ]
+    },
+    {
+      "ai_image": "enhanced-living.png",
+      "status": "acceptable_as_visual_reference_with_recorded_differences",
+      "selected_for_delivery": true,
+      "major_layout_drift_seen": false,
+      "checked_formal_model_render": "02-living.png",
+      "actual_image_viewed": true,
+      "dimension_or_installation_evidence": false,
+      "preserved_layout": [
+        "原电视墙、四扇白电视柜与薄胡桃顶、右侧柜机、木地板和画幅中的沙发边位置"
+      ],
+      "recorded_differences": [
+        "TV倒影重绘了合成窗景、沙发和绿植，这些只是反射意象，不代表新增实物。",
+        "左侧窗光与植物投影、白踢脚线被重绘，不作现场光照或收口施工依据。",
+        "地板暖棕色与直铺保留，木纹和接缝不是原照片逐像素复制。"
+      ],
+      "original_ai_image_sha256": "1af5db504d7b6d3d272d6775108e92b320a80a8954523db5aed6769a78cf0482",
+      "original_formal_model_render_sha256": "bd7ad18e05391dbb18684a4a7f7db105a37b37f9e5447af6325b347814af3536",
+      "anchor_image": "02-living.png",
+      "original_anchor_image_sha256": "bd7ad18e05391dbb18684a4a7f7db105a37b37f9e5447af6325b347814af3536",
+      "reviewed_reference_hashes": [
+        {
+          "file": "02-living.png",
+          "original_sha256": "bd7ad18e05391dbb18684a4a7f7db105a37b37f9e5447af6325b347814af3536"
+        },
+        {
+          "file": "reference-02-floor.jpg",
+          "original_sha256": "8b8d1f30d506948bb1728aaa1dd0c1a1ff412ecafe00291343f0f29b129251b8"
+        }
+      ]
+    },
+    {
+      "ai_image": "enhanced-master.png",
+      "status": "acceptable_as_visual_reference_with_recorded_differences",
+      "selected_for_delivery": true,
+      "major_layout_drift_seen": false,
+      "checked_formal_model_render": "04-master.png",
+      "actual_image_viewed": true,
+      "dimension_or_installation_evidence": false,
+      "preserved_layout": [
+        "C胡桃床头/床框、蓝与暖黄寝具、平窗位置、白窗下柜、梳妆台与凳、床侧小层架及吊扇"
+      ],
+      "recorded_differences": [
+        "AI将粗略的模型树改为摄影感绿景，外景仍是合成场景。",
+        "寝具褶皱、台灯质感、床缘和灯带亮度有所重绘；床尺寸与照度以模型提案/现场为准。",
+        "地板木纹、玻璃反射与柜门小缝被增强，不能作实物采购及色差核验。"
+      ],
+      "original_ai_image_sha256": "aadce0999de008ce62f9c059d83cae7eb40c3bd242c452c2db7bb0b2361e8127",
+      "original_formal_model_render_sha256": "242cc1938fd63263f492d3ef6c12c394529f03c63839bc4f858733c281c9752e",
+      "anchor_image": "04-master.png",
+      "original_anchor_image_sha256": "242cc1938fd63263f492d3ef6c12c394529f03c63839bc4f858733c281c9752e",
+      "reviewed_reference_hashes": [
+        {
+          "file": "04-master.png",
+          "original_sha256": "242cc1938fd63263f492d3ef6c12c394529f03c63839bc4f858733c281c9752e"
+        },
+        {
+          "file": "reference-02-floor.jpg",
+          "original_sha256": "8b8d1f30d506948bb1728aaa1dd0c1a1ff412ecafe00291343f0f29b129251b8"
+        }
+      ]
+    },
+    {
+      "ai_image": "enhanced-laundry.png",
+      "status": "acceptable_as_visual_reference_with_recorded_differences",
+      "selected_for_delivery": true,
+      "major_layout_drift_seen": false,
+      "checked_formal_model_render": "05-laundry.png",
+      "actual_image_viewed": true,
+      "dimension_or_installation_evidence": false,
+      "preserved_layout": [
+        "一台白三筒机两小上门/一大下门，南侧包机柜、相邻低柜与西侧台盆形成L、原西盆镜柜及右側隔墙，灰色湿区地砖"
+      ],
+      "recorded_differences": [
+        "洗衣机控制标识、门玻璃及外壳细节由AI重绘，以产品图和规格为准。",
+        "镜面倒影、台盆/柜门接缝、台面收口和踢脚反射被增强，不作为施工详图。",
+        "上柜顶部裁切与极广角会影响高低感，柜高和真实房高须现场复测；灰色地砖纹理/光照非原材逐像素复制。"
+      ],
+      "original_ai_image_sha256": "92761dc9e7a090c24a2f6fdba2213af1436808c786bb25599fbac884184ec5c7",
+      "original_formal_model_render_sha256": "69147d30ea1cc852d771b61fd7e99aefb928c45f89b435905388e0ab0bd4366f",
+      "anchor_image": "05-laundry.png",
+      "original_anchor_image_sha256": "69147d30ea1cc852d771b61fd7e99aefb928c45f89b435905388e0ab0bd4366f",
+      "reviewed_reference_hashes": [
+        {
+          "file": "05-laundry.png",
+          "original_sha256": "69147d30ea1cc852d771b61fd7e99aefb928c45f89b435905388e0ab0bd4366f"
+        },
+        {
+          "file": "reference-washer-v6.jpg",
+          "original_sha256": "b953929ed7519118b5d3f34e81e75ddc6931bccdd9328a5237a153a05e356be8"
+        }
+      ]
+    }
+  ],
+  "formal_render_review": {
+    "version": 10,
+    "status": "completed_visual_review_with_scope_notes",
+    "source_model": "apartment-design-v10.blend",
+    "original_source_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "count": 21,
+    "major_new_picture_errors_seen": false,
+    "actual_room_height_m": null,
+    "old_3m_is_current_confirmed_height": false,
+    "static_closed_state_does_not_certify_door_operation": true,
+    "images": [
+      {
+        "file": "01-dining.png",
+        "original_sha256": "9ddd67b54f4e6cabfaaea3e1437657d8aec1983ec6171b80a8d7fd56354b277b",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "餐边柜南端贴齐墙尾、左侧对开冰箱、两玻璃上门与白下柜可见，餐桌椅仍在；当前椅位静态不是动态通行证据。"
+      },
+      {
+        "file": "02-living.png",
+        "original_sha256": "bd7ad18e05391dbb18684a4a7f7db105a37b37f9e5447af6325b347814af3536",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "白电视柜薄胡桃顶和电视、右柜机可见；裁切客厅沙发与吊顶大部分，视角仅电视墙展示。"
+      },
+      {
+        "file": "03-study.png",
+        "original_sha256": "f092c955688ed3fff3e994e2e59571744c72bf3cd82d31dfdd105c778024389c",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "A无床双人L书桌及白上柜展示带、原窗和窗下柜可见；此角度仅一台显示器入画，另一工位被画幅裁切，不能据此认为模型少一台电脑。广角和窗外合成绿景为展示。"
+      },
+      {
+        "file": "04-master.png",
+        "original_sha256": "242cc1938fd63263f492d3ef6c12c394529f03c63839bc4f858733c281c9752e",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "C胡桃床头、蓝/暖黄寝具、白窗下柜与侧梳妆台、吊扇可见；L衣柜不在此床侧视角，另19展示。窗外树模型是合成背景。"
+      },
+      {
+        "file": "05-laundry.png",
+        "original_sha256": "69147d30ea1cc852d771b61fd7e99aefb928c45f89b435905388e0ab0bd4366f",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "单台三筒机两小门/一大门完整、侧板顶柜、左右白低柜与西盆连成L可见；11.7mm极广角变形与上缘裁切，不用此图核机器外形或柜高。"
+      },
+      {
+        "file": "06-laundry-vanity.png",
+        "original_sha256": "03d01610825f75fb608c8318a51b26abc230f2e12b3b1b44da45c70deac8302d",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "渲染相机移至新西盆正对面，盆、镜柜和白下柜清楚，左侧三筒机下部被画幅裁切，右坐便透过原短隔墙可见；配05/17了解全布局。"
+      },
+      {
+        "file": "07-wardrobe-interior.png",
+        "original_sha256": "3d9c587d69cfd12b70612048b4f7475fe38f9749dfb81ba8a919d98d0c077771",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "A原衣柜门为展示临时隐藏，长/短挂区与顶储物可见；前方两椅保留，衣服为简化占位形状。"
+      },
+      {
+        "file": "08-overview.png",
+        "original_sha256": "2a35d1a17ff7354efc3f08c6d85b3a27ba0bcefe9523dd85e2a4b1b5e2ae4d15",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "剖切全屋总览用于整体柜位和分区，展示时隐藏顶部墙/窗上构件，所以原窗帘部分看似悬空；原窗、窗帘及真实模型墙保留，不以剖切图推断现场悬挂。"
+      },
+      {
+        "file": "09-plan.png",
+        "original_sha256": "1200227fd552bfbf6fd68e1239dacc8f3b14ad12e4d1acc01f19e7cb56670687",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "俯视显示新的A淋浴/西坐便/西盆/南洗衣L、厨房U、齐墙尾餐边柜、新入户柜、B/C L与窗下柜以及B浴缸/西南坐便/东盆；C短墙拆除仅条件方案。柜顶遮挡部分设备正常，尺寸以参数和模型核。"
+      },
+      {
+        "file": "10-bedroomB-interior.png",
+        "original_sha256": "8b2860e51232ca728ad70b8bbad1b61a50a49970c712e5e06224540aaca3e4cc",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "B柜门为内部展示临时隐藏，斜侧视角侧板遮挡部分主柜；短衣区、北L返柜和上方原壁挂空调可见，挂衣分区配合参数和俯视核对。"
+      },
+      {
+        "file": "11-master-wardrobe.png",
+        "original_sha256": "db4636d0bbdd2f4ac45068b3050e24277fd50c570238f4b90e58cce7840728f5",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "C柜门为内部展示临时隐藏，新正面角度可见主柜长衣区、双层短衣区和角部封闭盲区；东侧返柜在转角后不全部入画，盲区不计有效挂衣容量。"
+      },
+      {
+        "file": "12-windowB.png",
+        "original_sha256": "28f9527300644efb7fba0f06ec4c88fa8cb6b4a8c11f3af9299cc2c299fd32ee",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "B白窗下柜三门、白台面、原窗和两咖色帘可见；柜北移100mm避静态窗帘，帘摆动、窗台及柜门使用仍待现场核。"
+      },
+      {
+        "file": "13-entry.png",
+        "original_sha256": "075aa3aa9563915427dc5fe201e8f6ca7e85c02b94db06aa30ef0b38e0af34ad",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "1140mm白色浅入户柜、上衣帽门、胡桃开放壁龛和白鞋柜可见，原装饰瓶挪入新壁龛；浅柜伸缩挂杆为待五金确认提案。"
+      },
+      {
+        "file": "14-sideboard-detail.png",
+        "original_sha256": "680973de1e208a284d8d56a5d4beb526e14f8f7d067f0bc183108a4c0dc8d0d3",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "餐边柜细图可见两茶灰玻璃门、白中门、胡桃背板/台面、三插座及饮水机，下柜三抽；右尾板与原墙尾齐。展示临时隐藏餐桌椅和吊灯，模型内保留。"
+      },
+      {
+        "file": "15-kitchen.png",
+        "original_sha256": "d145dfeb8fff119af44044579e30ef040583c9351ea62d65a81022cf371c4c44",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "厨房西灶/北水槽及洗碗机/东返台面连成三面U，原窗、抽油烟机、微波炉、水壶与电饭煲保留；13mm广角，靠右返柜部分画幅裁切。"
+      },
+      {
+        "file": "16-bathB.png",
+        "original_sha256": "13750994d3cd366462ae541feb4d6cb596fc2e7fdd3c2fc4f46e6c019c34803f",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "北浴缸、西南坐便、东盆和白下柜可见；镜柜及窗部分裁切，原门保持，台盆和龙头为模型示意；B原瓷砖方案保留。"
+      },
+      {
+        "file": "17-showerA.png",
+        "original_sha256": "cb760e0de11a3e654d2692ea84ca7af242ec374b11303903f37eb27505dc61ab",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "A北窗淋浴双扇玻璃、轨道和花洒、灰托盘与西凹坐便可见；淋浴玻璃反射会叠影，不是重复设备，窗景为模型树，推拉/窗开启需现场深化。"
+      },
+      {
+        "file": "18-bedroomB-L.png",
+        "original_sha256": "d5dfc56709b751c54ba4e7f4c5fe873a1ab7adbb8e9582e483997b405c4b7a45",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "B北L白柜与延向门旁的返边、原壁挂机、门侧净隙可见；相机广角带透视，空调侧检修/风路以及柜门动态未通过现场认证。"
+      },
+      {
+        "file": "19-master-L.png",
+        "original_sha256": "3b6b1c60ae3e7f838a2afea5cd0bb8b774bf634f2a2e888d22a375615b8d8378",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10.blend",
+        "original_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+        "variant": "conditional_short_wall_removal",
+        "scope_notes": "条件拆短墙C主柜白门正面、右侧600mm无挂衣转角连接空区与床头边可见；连接区未设置门或挂杆，不计有效挂衣区。东侧返柜在转角之后部分遮挡。原门洞保留，实际房高/可拆性/门动态待核。"
+      },
+      {
+        "file": "20-retained-wall-plan.png",
+        "original_sha256": "4487ab8fa5a38e314eb9f3ea99ba08ed642486a688b17bc8b5e85fd66fd24e67",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10-retained-wall.blend",
+        "original_model_sha256": "f0b33381a817e58c0b3baea644ed368e5be0aa7b81926e31595fcf36922fc7d2",
+        "variant": "retained_wall",
+        "scope_notes": "备选保留C完整原短墙/端返墙，南北独立柜分开，未显示条件L主柜；其他V10柜位与卫浴更新相同。"
+      },
+      {
+        "file": "21-retained-wall-C.png",
+        "original_sha256": "5a038eb1432e437326e578890479a9a4cdf206a5529060ddc6f4e9a990bb3655",
+        "actual_image_viewed": true,
+        "major_picture_error_seen": false,
+        "model_filename": "apartment-design-v10-retained-wall.blend",
+        "original_model_sha256": "f0b33381a817e58c0b3baea644ed368e5be0aa7b81926e31595fcf36922fc7d2",
+        "variant": "retained_wall",
+        "scope_notes": "备选正面显示保留短墙南侧白柜、左原门及床头边；北侧独立柜在墙后，需配20俯视理解，绝不等同于拆墙L。柜高占位，真实房高未确认。"
+      }
+    ]
+  },
+  "formal_review_file": "formal-visual-review10.json",
+  "original_formal_review_sha256": "ef93f14eb0705a36dfbdf1df303f6510079b205692d2cc2b9be6247ce5bb367c",
+  "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+}

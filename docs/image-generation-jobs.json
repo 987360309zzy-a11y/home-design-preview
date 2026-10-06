@@ -1,0 +1,130 @@
+[
+  {
+    "tool": "image_gen.imagegen",
+    "model_name": null,
+    "model_verified": false,
+    "generation_completed": true,
+    "date": "2026-10-06",
+    "output": "enhanced-dining.png",
+    "original_output_sha256": "9ae24bc6027313edc8886c34e30e1d224b741956f48649dd78fde56c0749e4e3",
+    "prompt_file": "ai-prompt-dining-v10.txt",
+    "prompt": "Use case: precise-object-edit. Create a photorealistic architectural interior photograph by enhancing image 1, our actual V10 model. It is the spatial authority: preserve exact camera perspective, room proportions, every visible opening, table and chairs, lighting fixture, and the fridge on the LEFT of the white dining sideboard. The redesigned sideboard's SOUTH/right END is flush with the physical adjoining wall end; keep that position and its 2.009m nominal length, do not shorten it or deepen it. Exactly two white-framed tea-grey glass upper doors and one solid white center door; white lower doors and center three drawers; restrained walnut middle niche and countertop with three socket adaptors and the black drink dispenser at the right end. Image 3 is only a cabinet-material finish reference, not spatial authority; do not copy its different layout or floor. Image 2 is the owner's actual floor reference: warm medium caramel brown walnut-like straight staggered boards, fine lengthwise grain with distinctive faint crosswise saw marks, matte satin reflectance. Keep this floor tone, neither dark espresso nor pale oak nor herringbone. Bright warm-white painted walls, white double-step perimeter ceiling as model, white matte cabinets. Enhance only surface texture, manufactured seams, realistic stainless refrigerator, smoky reflective glass, soft daylight, subtle contact shadows and believable light. Avoid glossy CGI/plastic, excessive orange lighting, altered door positions, new appliances, furniture changes, people, labels, red markup, phone UI and any logos.",
+    "input_references": [
+      {
+        "file": "01-dining.png",
+        "original_sha256": "9ddd67b54f4e6cabfaaea3e1437657d8aec1983ec6171b80a8d7fd56354b277b"
+      },
+      {
+        "file": "reference-02-floor.jpg",
+        "original_sha256": "8b8d1f30d506948bb1728aaa1dd0c1a1ff412ecafe00291343f0f29b129251b8"
+      },
+      {
+        "file": "reference-sideboard-v7.jpg",
+        "original_sha256": "2c2c25b3c15e4dda9f6c0c80347c412741600120c3a827ec199d8ccc46a2a1d1"
+      }
+    ],
+    "source_model": "apartment-design-v10.blend",
+    "original_source_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "paired_formal_render": "01-dining.png",
+    "original_paired_formal_render_sha256": "9ddd67b54f4e6cabfaaea3e1437657d8aec1983ec6171b80a8d7fd56354b277b",
+    "selected_for_delivery": true,
+    "review_file": "ai-visual-review.json",
+    "dimension_basis": "AI visual only; model and site measurements govern dimensions",
+    "display_view_hides_dining_furniture": false,
+    "display_view_note": null,
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "tool": "image_gen.imagegen",
+    "model_name": null,
+    "model_verified": false,
+    "generation_completed": true,
+    "date": "2026-10-06",
+    "output": "enhanced-living.png",
+    "original_output_sha256": "1af5db504d7b6d3d272d6775108e92b320a80a8954523db5aed6769a78cf0482",
+    "prompt_file": "ai-prompt-living-v10.txt",
+    "prompt": "Use case: precise-object-edit. Enhance image 1, the current actual V10 Blender living room, to a believable photographic interior; preserve its camera, furniture sizes and positions, walls/windows/door openings, TV wall, white TV base with thin walnut top, seating, curtains and ceiling double-step perimeter details. Image 2 is the actual owner's flooring reference, warm medium caramel brown with straight staggered boards and fine saw-cut cross marks; match this color and texture without darkening to espresso or making pale oak/herringbone. Bright warm-white painted walls and pure white ceiling, 70-80% white cabinet fronts visually, walnut accents only. Add physically realistic fabric weave and folds, satin wood, fine cabinet seams, true-to-life TV glass reflections, natural daylight and contact shadows; retain existing ordinary wall/floor AC type, no central AC. Do not add or remove structural openings, large furniture, cabinetry or appliances; no people, logos, labels, copied phone UI, exaggerated bloom or a glossy CGI look.",
+    "input_references": [
+      {
+        "file": "02-living.png",
+        "original_sha256": "bd7ad18e05391dbb18684a4a7f7db105a37b37f9e5447af6325b347814af3536"
+      },
+      {
+        "file": "reference-02-floor.jpg",
+        "original_sha256": "8b8d1f30d506948bb1728aaa1dd0c1a1ff412ecafe00291343f0f29b129251b8"
+      }
+    ],
+    "source_model": "apartment-design-v10.blend",
+    "original_source_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "paired_formal_render": "02-living.png",
+    "original_paired_formal_render_sha256": "bd7ad18e05391dbb18684a4a7f7db105a37b37f9e5447af6325b347814af3536",
+    "selected_for_delivery": true,
+    "review_file": "ai-visual-review.json",
+    "dimension_basis": "AI visual only; model and site measurements govern dimensions",
+    "display_view_hides_dining_furniture": false,
+    "display_view_note": null,
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "tool": "image_gen.imagegen",
+    "model_name": null,
+    "model_verified": false,
+    "generation_completed": true,
+    "date": "2026-10-06",
+    "output": "enhanced-master.png",
+    "original_output_sha256": "aadce0999de008ce62f9c059d83cae7eb40c3bd242c452c2db7bb0b2361e8127",
+    "prompt_file": "ai-prompt-master-v10.txt",
+    "prompt": "Use case: precise-object-edit. Enhance image1, a fresh render of the actual V10 master-bedroom model, into an understated realistic interior photograph. Its spatial layout is authoritative; preserve the camera perspective, room/window/door sizes, bed and bedside cabinet placement, wall-mounted small shelf, white under-window low cabinet, white-sided walnut vanity on the right with round stool, existing AC and three-blade ceiling fan, all wall and ceiling geometry. Do not invent a bay window, do not reshape the real flat window opening. Bright warm white painted walls, white ceiling and the modeled double-step perimeter detail, warm walnut low headboard and bed frame, washed blue and muted ochre bedding with natural woven texture and subtle creases. Image2 is the actual owner floor: warm medium caramel-brown boards laid STRAIGHT and staggered with crosswise fine saw marks; match its color and roughness, NOT dark espresso, NOT pale oak, NOT herringbone. Improve realistic matt paint, satin wood grain, fabric weave, cushion shape, fine joinery seams, real glass reflection and soft daylight plus gentle warm headboard illumination. Window greenery is synthetic exterior context only and may be photo-like, not site evidence. Retain the bed position and all visible storage; no new wardrobes in this view, no architecture changes, no people, no extra decorative furniture, no copied social-app UI, no labels or logos, no orange filter or glossy CGI.",
+    "input_references": [
+      {
+        "file": "04-master.png",
+        "original_sha256": "242cc1938fd63263f492d3ef6c12c394529f03c63839bc4f858733c281c9752e"
+      },
+      {
+        "file": "reference-02-floor.jpg",
+        "original_sha256": "8b8d1f30d506948bb1728aaa1dd0c1a1ff412ecafe00291343f0f29b129251b8"
+      }
+    ],
+    "source_model": "apartment-design-v10.blend",
+    "original_source_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "paired_formal_render": "04-master.png",
+    "original_paired_formal_render_sha256": "242cc1938fd63263f492d3ef6c12c394529f03c63839bc4f858733c281c9752e",
+    "selected_for_delivery": true,
+    "review_file": "ai-visual-review.json",
+    "dimension_basis": "AI visual only; model and site measurements govern dimensions",
+    "display_view_hides_dining_furniture": false,
+    "display_view_note": null,
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  },
+  {
+    "tool": "image_gen.imagegen",
+    "model_name": null,
+    "model_verified": false,
+    "generation_completed": true,
+    "date": "2026-10-06",
+    "output": "enhanced-laundry.png",
+    "original_output_sha256": "92761dc9e7a090c24a2f6fdba2213af1436808c786bb25599fbac884184ec5c7",
+    "prompt_file": "ai-prompt-laundry-v10.txt",
+    "prompt": "Use case: precise-object-edit. Enhance image1, a new view from our final V10 Blender bathroom, into a realistic small bathroom photograph. Image1 is the spatial authority: preserve this exact compact room, camera direction and openings, the SOUTH-wall surrounding white washer cabinet, connected white low storage on the left and WEST-side basin/white vanity and mirror on the right. Preserve the stepped L connection and its relative heights. The single washer is ONE white three-drum unit with TWO small black round doors on the same upper row and ONE larger black round door below, like product reference image2; no stacked washer-dryer, no separate dryer, do not change to a normal single drum. Machine actual model envelope W600 D595 H1070; enclosing case proposal W700 D700 topZ2300, opening netW664 netH1120. Treat numbers as visual proportions only, do not write dimensions on the picture. Keep all white opaque tall cabinet doors, small black plinth/toe details, pale warm-grey tiled bathroom floor, bright warm-white walls and white ceiling. Kitchen/dry-room walnut floor must not be substituted into this bathroom. Improve matt painted cabinetry, fine real door seams, porcelain basin, realistic faucet/mirror/glass, washer drum reflections, subtly textured warm-grey tiles and soft diffuse daylight. Source view is ultra-wide: retain room size without enlarging the vanity, machine niche, walkway or invented windows. Do not raise cabinet top to pretend confirmed ceiling height; do not add plumbing/doors/windows/detergent objects, stacked machines, people, labels, logos or phone UI. The basin remains a separate supported vanity, not squeezed into or over the washer. No generic glossy CGI or excessive orange lighting.",
+    "input_references": [
+      {
+        "file": "05-laundry.png",
+        "original_sha256": "69147d30ea1cc852d771b61fd7e99aefb928c45f89b435905388e0ab0bd4366f"
+      },
+      {
+        "file": "reference-washer-v6.jpg",
+        "original_sha256": "b953929ed7519118b5d3f34e81e75ddc6931bccdd9328a5237a153a05e356be8"
+      }
+    ],
+    "source_model": "apartment-design-v10.blend",
+    "original_source_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+    "paired_formal_render": "05-laundry.png",
+    "original_paired_formal_render_sha256": "69147d30ea1cc852d771b61fd7e99aefb928c45f89b435905388e0ab0bd4366f",
+    "selected_for_delivery": true,
+    "review_file": "ai-visual-review.json",
+    "dimension_basis": "AI visual only; model and site measurements govern dimensions",
+    "display_view_hides_dining_furniture": false,
+    "display_view_note": null,
+    "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  }
+]
