@@ -11,3 +11,6 @@
 GitHub Pages从main分支/docs发布；查看器4.3.1与CC0环境光自托管，许可来源见docs/vendor与docs/environment-provenance.json。公开PNG仅清理附加元数据，像素与颜色保持不变。公开文件与本地原件指纹区分记录，见docs/publication-manifest.json。
 
 实际举架、柜体开料和厂家安装尺寸仍须现场深化。BLEND、ZIP、脚本和完整日志保存在本地。
+
+
+补充交付：[19页方案册](https://987360309zzy-a11y.github.io/home-design-preview/design-book-v12.pdf)、[工程量与待报价表](https://987360309zzy-a11y.github.io/home-design-preview/quotation-v12.xlsx)、[定制柜与材料清单](https://987360309zzy-a11y.github.io/home-design-preview/cabinet-material-schedule-v12.md)。未知价格和现场工程量留空。

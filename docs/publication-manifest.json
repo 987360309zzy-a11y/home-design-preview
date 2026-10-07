@@ -728,12 +728,12 @@
       "file": "index.html",
       "original_file": null,
       "original_sha256": null,
-      "published_sha256": "34e57940e6c644c4867d7c68e097be3c92e22cf650214e7563087eb018b2d16f",
-      "size_bytes": 42922,
+      "published_sha256": "317acc3f2bbe11c1f71183182406178f3a2ef54064b4a109d938a7d271e182f2",
+      "size_bytes": 44535,
       "source_version": 12,
       "transformation": {
-        "V12_TV_revision": true,
-        "all_prior_ten_requirements_retained": true
+        "supplement_links_added": true,
+        "original_V12_model_and_viewer_unchanged": true
       }
     },
     {
@@ -967,6 +967,78 @@
         "reviewed_laundry_camera4_retained": true,
         "browser_material_overrides": false
       }
+    },
+    {
+      "file": "design-book-v12.pdf",
+      "original_file": "全屋设计方案册-V12.pdf",
+      "original_sha256": "038a42c456953c003ba46678af53179adc8602cef787415f4bb850e3edc7b8d8",
+      "published_sha256": "038a42c456953c003ba46678af53179adc8602cef787415f4bb850e3edc7b8d8",
+      "size_bytes": 3032957,
+      "source_version": 12,
+      "transformation": {
+        "copied_byte_identical": true,
+        "supplement_file": true
+      }
+    },
+    {
+      "file": "quotation-v12.xlsx",
+      "original_file": "工程量与待报价.xlsx",
+      "original_sha256": "d0f20d0def792fb2af3444735186b47a3a8f2066a94d8d029f28c0700e1f07c7",
+      "published_sha256": "d0f20d0def792fb2af3444735186b47a3a8f2066a94d8d029f28c0700e1f07c7",
+      "size_bytes": 34530,
+      "source_version": 12,
+      "transformation": {
+        "copied_byte_identical": true,
+        "supplement_file": true
+      }
+    },
+    {
+      "file": "cabinet-material-schedule-v12.md",
+      "original_file": "柜体与材料清单.md",
+      "original_sha256": "28d8bf3609e0956100bc4ada16cce84c4571c49f9e6f0c63ddf466e104adc907",
+      "published_sha256": "28d8bf3609e0956100bc4ada16cce84c4571c49f9e6f0c63ddf466e104adc907",
+      "size_bytes": 31752,
+      "source_version": 12,
+      "transformation": {
+        "copied_byte_identical": true,
+        "supplement_file": true
+      }
+    },
+    {
+      "file": "cabinet-material-schedule-v12.json",
+      "original_file": "柜体与材料清单.json",
+      "original_sha256": "642fe6198d5a97b4ce75cde436c7017f6f1a595aee72db2cfa54c9a80d817096",
+      "published_sha256": "642fe6198d5a97b4ce75cde436c7017f6f1a595aee72db2cfa54c9a80d817096",
+      "size_bytes": 269311,
+      "source_version": 12,
+      "transformation": {
+        "copied_byte_identical": true,
+        "supplement_file": true
+      }
+    },
+    {
+      "file": "site-measurements-v12.md",
+      "original_file": "现场待测与定制沟通.md",
+      "original_sha256": "17c9f56b05c5291dce1129fa20d07c1f58e98671e2e4aa61666694d7a72f260c",
+      "published_sha256": "17c9f56b05c5291dce1129fa20d07c1f58e98671e2e4aa61666694d7a72f260c",
+      "size_bytes": 1853,
+      "source_version": 12,
+      "transformation": {
+        "copied_byte_identical": true,
+        "supplement_file": true
+      }
     }
-  ]
+  ],
+  "completion_handoff": {
+    "date": "2026-10-07",
+    "book_pages": 19,
+    "cabinet_rows": 31,
+    "material_rows": 12,
+    "equipment_rows": 14,
+    "hanging_zone_rows": 15,
+    "quote_workbook_complete": true,
+    "quotation_complete": false,
+    "source_model_unchanged": true,
+    "actual_height_m": null
+  }
 }
