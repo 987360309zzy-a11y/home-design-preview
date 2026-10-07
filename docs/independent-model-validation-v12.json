@@ -1,0 +1,980 @@
+{
+  "schema_version": 1,
+  "version": 12,
+  "validator": "check_final_v12.py",
+  "checked_at_utc": "2026-10-07T02:43:28.516300+00:00",
+  "site_verified": false,
+  "construction_ready": false,
+  "scope": "Independent source/final reopening and four GLB imports; geometric and texture evidence only",
+  "checks": [
+    {
+      "name": "immutable frozen V11 source fingerprint",
+      "passed": true
+    },
+    {
+      "name": "bounded replacements are exactly original C03 TV-cabinet objects",
+      "passed": true
+    },
+    {
+      "name": "final frozen model matches export fingerprint",
+      "passed": true
+    },
+    {
+      "name": "final object set is preserved source plus declared TV replacement",
+      "passed": true,
+      "details": {
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "old low cabinet is absent",
+      "passed": true
+    },
+    {
+      "name": "every non-TV object retains geometry modifiers parent matrices and UV",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "all appliance objects preserved",
+      "passed": true,
+      "details": {
+        "count": 490
+      }
+    },
+    {
+      "name": "all original floor objects preserved",
+      "passed": true,
+      "details": {
+        "count": 10
+      }
+    },
+    {
+      "name": "new V11 laundry objects preserved",
+      "passed": true,
+      "details": {
+        "count": 66
+      }
+    },
+    {
+      "name": "all packed material image bytes remain exact V11 originals",
+      "passed": true
+    },
+    {
+      "name": "original chosen floor remains packed and used",
+      "passed": true
+    },
+    {
+      "name": "new TV collection equals declared object set",
+      "passed": true
+    },
+    {
+      "name": "C remains user-confirmed no-wall and no demolition",
+      "passed": true
+    },
+    {
+      "name": "actual height is unknown and dimensions are concept proposals",
+      "passed": true
+    },
+    {
+      "name": "four GLBs present and only primary variant selected",
+      "passed": true
+    },
+    {
+      "name": "TV cabinet appears in cutaway full and joinery",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-cutaway.glb: selected objects match independently reopened model",
+      "passed": true,
+      "details": {
+        "expected_count": 1559,
+        "mesh_node_count": 1559,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "apartment-design-cutaway.glb: export manifest matches bytes and object set",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-cutaway.glb: historical wall/alternate objects absent",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-cutaway.glb: zero external/data URI dependencies",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-cutaway.glb: BIN buffer is valid",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-cutaway.glb: all bufferViews stay inside embedded BIN",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "apartment-design-cutaway.glb: every texture image is embedded and has valid signature",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "apartment-design-cutaway.glb: approved floor photo bytes embedded unchanged",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-cutaway.glb: every textured primitive has valid matching texCoord attribute",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "apartment-design-cutaway.glb: exported procedural materials retain base/ORM/normal",
+      "passed": true,
+      "details": {
+        "Master_ochre_linen": true,
+        "Reference03_walnut": true,
+        "V10_BathA_light_warm_grey_tile_appearance": true,
+        "Natural oak": true,
+        "Warm limestone": true,
+        "Study_warm_walnut_desktop": true
+      }
+    },
+    {
+      "name": "apartment-design-cutaway.glb: all six source procedural material maps are present",
+      "passed": true,
+      "details": [
+        "Master_ochre_linen",
+        "Natural oak",
+        "Reference03_walnut",
+        "Study_warm_walnut_desktop",
+        "V10_BathA_light_warm_grey_tile_appearance",
+        "Warm limestone"
+      ]
+    },
+    {
+      "name": "apartment-design-cutaway.glb: independent importer reconstructed the selected mesh objects",
+      "passed": true,
+      "details": {
+        "imported_mesh_count": 1559,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "apartment-design-cutaway.glb: imported meshes contain real vertices/polygons",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-cutaway.glb: imported embedded textures decode successfully",
+      "passed": true,
+      "details": [
+        {
+          "name": "floor-basecolor-v11-reference-preserved",
+          "size": [
+            1254,
+            1254
+          ],
+          "packed": true
+        },
+        {
+          "name": "Master_ochre_linen_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Master_ochre_linen_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Master_ochre_linen_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Natural_oak_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Natural_oak_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Natural_oak_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Reference03_walnut_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Reference03_walnut_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Reference03_walnut_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "reference_floor_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "reference_floor_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Study_warm_walnut_desktop_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Study_warm_walnut_desktop_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Study_warm_walnut_desktop_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "V10_BathA_light_warm_grey_tile_appearance_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "V10_BathA_light_warm_grey_tile_appearance_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "V10_BathA_light_warm_grey_tile_appearance_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Warm_limestone_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Warm_limestone_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Warm_limestone_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        }
+      ]
+    },
+    {
+      "name": "apartment-design-full.glb: selected objects match independently reopened model",
+      "passed": true,
+      "details": {
+        "expected_count": 1916,
+        "mesh_node_count": 1916,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "apartment-design-full.glb: export manifest matches bytes and object set",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-full.glb: historical wall/alternate objects absent",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-full.glb: zero external/data URI dependencies",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-full.glb: BIN buffer is valid",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-full.glb: all bufferViews stay inside embedded BIN",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "apartment-design-full.glb: every texture image is embedded and has valid signature",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "apartment-design-full.glb: approved floor photo bytes embedded unchanged",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-full.glb: every textured primitive has valid matching texCoord attribute",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "apartment-design-full.glb: exported procedural materials retain base/ORM/normal",
+      "passed": true,
+      "details": {
+        "Natural oak": true,
+        "Master_ochre_linen": true,
+        "Reference03_walnut": true,
+        "V10_BathA_light_warm_grey_tile_appearance": true,
+        "Warm limestone": true,
+        "Study_warm_walnut_desktop": true
+      }
+    },
+    {
+      "name": "apartment-design-full.glb: all six source procedural material maps are present",
+      "passed": true,
+      "details": [
+        "Master_ochre_linen",
+        "Natural oak",
+        "Reference03_walnut",
+        "Study_warm_walnut_desktop",
+        "V10_BathA_light_warm_grey_tile_appearance",
+        "Warm limestone"
+      ]
+    },
+    {
+      "name": "apartment-design-full.glb: independent importer reconstructed the selected mesh objects",
+      "passed": true,
+      "details": {
+        "imported_mesh_count": 1916,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "apartment-design-full.glb: imported meshes contain real vertices/polygons",
+      "passed": true
+    },
+    {
+      "name": "apartment-design-full.glb: imported embedded textures decode successfully",
+      "passed": true,
+      "details": [
+        {
+          "name": "floor-basecolor-v11-reference-preserved",
+          "size": [
+            1254,
+            1254
+          ],
+          "packed": true
+        },
+        {
+          "name": "Master_ochre_linen_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Master_ochre_linen_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Master_ochre_linen_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Natural_oak_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Natural_oak_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Natural_oak_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Reference03_walnut_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Reference03_walnut_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Reference03_walnut_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "reference_floor_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "reference_floor_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Study_warm_walnut_desktop_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Study_warm_walnut_desktop_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Study_warm_walnut_desktop_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "V10_BathA_light_warm_grey_tile_appearance_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "V10_BathA_light_warm_grey_tile_appearance_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "V10_BathA_light_warm_grey_tile_appearance_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Warm_limestone_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Warm_limestone_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Warm_limestone_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        }
+      ]
+    },
+    {
+      "name": "appliances-only.glb: selected objects match independently reopened model",
+      "passed": true,
+      "details": {
+        "expected_count": 475,
+        "mesh_node_count": 475,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "appliances-only.glb: export manifest matches bytes and object set",
+      "passed": true
+    },
+    {
+      "name": "appliances-only.glb: historical wall/alternate objects absent",
+      "passed": true
+    },
+    {
+      "name": "appliances-only.glb: every mesh is identified as an appliance",
+      "passed": true
+    },
+    {
+      "name": "appliances-only.glb: zero external/data URI dependencies",
+      "passed": true
+    },
+    {
+      "name": "appliances-only.glb: BIN buffer is valid",
+      "passed": true
+    },
+    {
+      "name": "appliances-only.glb: all bufferViews stay inside embedded BIN",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "appliances-only.glb: every texture image is embedded and has valid signature",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "appliances-only.glb: every textured primitive has valid matching texCoord attribute",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "appliances-only.glb: exported procedural materials retain base/ORM/normal",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "name": "appliances-only.glb: independent importer reconstructed the selected mesh objects",
+      "passed": true,
+      "details": {
+        "imported_mesh_count": 475,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "appliances-only.glb: imported meshes contain real vertices/polygons",
+      "passed": true
+    },
+    {
+      "name": "appliances-only.glb: imported embedded textures decode successfully",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "joinery-only.glb: selected objects match independently reopened model",
+      "passed": true,
+      "details": {
+        "expected_count": 787,
+        "mesh_node_count": 787,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "joinery-only.glb: export manifest matches bytes and object set",
+      "passed": true
+    },
+    {
+      "name": "joinery-only.glb: historical wall/alternate objects absent",
+      "passed": true
+    },
+    {
+      "name": "joinery-only.glb: AP08 and appliance IDs excluded from cabinet group",
+      "passed": true
+    },
+    {
+      "name": "joinery-only.glb: zero external/data URI dependencies",
+      "passed": true
+    },
+    {
+      "name": "joinery-only.glb: BIN buffer is valid",
+      "passed": true
+    },
+    {
+      "name": "joinery-only.glb: all bufferViews stay inside embedded BIN",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "joinery-only.glb: every texture image is embedded and has valid signature",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "joinery-only.glb: every textured primitive has valid matching texCoord attribute",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "joinery-only.glb: exported procedural materials retain base/ORM/normal",
+      "passed": true,
+      "details": {
+        "V10_BathA_light_warm_grey_tile_appearance": true,
+        "Study_warm_walnut_desktop": true,
+        "Reference03_walnut": true,
+        "Master_ochre_linen": true
+      }
+    },
+    {
+      "name": "joinery-only.glb: independent importer reconstructed the selected mesh objects",
+      "passed": true,
+      "details": {
+        "imported_mesh_count": 787,
+        "missing": [],
+        "extra": []
+      }
+    },
+    {
+      "name": "joinery-only.glb: imported meshes contain real vertices/polygons",
+      "passed": true
+    },
+    {
+      "name": "joinery-only.glb: imported embedded textures decode successfully",
+      "passed": true,
+      "details": [
+        {
+          "name": "Master_ochre_linen_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Master_ochre_linen_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Master_ochre_linen_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Reference03_walnut_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Reference03_walnut_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Reference03_walnut_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Study_warm_walnut_desktop_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Study_warm_walnut_desktop_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "Study_warm_walnut_desktop_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "V10_BathA_light_warm_grey_tile_appearance_basecolor_v11",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "V10_BathA_light_warm_grey_tile_appearance_normal_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        },
+        {
+          "name": "V10_BathA_light_warm_grey_tile_appearance_orm_v11",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true
+        }
+      ]
+    },
+    {
+      "name": "source final and exported files stayed byte-identical throughout independent validation",
+      "passed": true
+    }
+  ],
+  "glbs": {
+    "apartment-design-cutaway.glb": {
+      "original_sha256": "d596bcfc1031eed7a195211de95d72c782441f2331f79e2d0098191f7c7f7872",
+      "node_count": 1559,
+      "mesh_count": 1559,
+      "image_count": 21,
+      "material_count": 58,
+      "external_uris": [],
+      "original_embedded_image_sha256": [
+        "62402baeef92eeda8b67dcdd8e90705e9591a7a421608a4a7509c08c18f91e04",
+        "03ce9bde162a05e6fe8e2bb5b64814db20e51d32a45e946a728b785bf96d5f66",
+        "3988aba8c02d7745eb58fc4f6e1d06355fa9a7a0df8d03532b9b474d0d44274f",
+        "53716699e8fbc8b6163e43e589c28d3f9b8752497c0904da76ee91c255c6bde8",
+        "cbfac714409718e1aff03de5123802a16add69f7b1ab0ffb6dbe5786086897a6",
+        "5e42e8513fb126a522c044cad7a9bd799a9cd5fff7fab8318092f1dd1fa7aec6",
+        "a37fcb569da858a0620bdfa370815add1de019b69ca338c3c2aeafbb662fb9a4",
+        "dadb76659e3928ecc1f2471fbe6249817a2910368f7fd3c487ba0e2d8a86a377",
+        "962a3be94c68e30524d0bd3c377acbb22e4d3b9f33d92e8e654d3938d1d3962a",
+        "e35b3c9c2651b127a74d05d5ff8cf25470a8de712dc56950b812502a1138ec22",
+        "d7c0c5a497563ba76dd8db1a51c345a25d8482e63f6fbbd692bfc27f1bea0f2b",
+        "fe0837a03fc00f9e8d2897960803d1bc95200574dedf4f6014f9acef77e18e44",
+        "b80b9185e0aa37366c76e4b55ddc86ee21ee33c3b2073ecbbe76b44e6f42ff01",
+        "005511e78293f50eab444f123905c1ebe4e47d3820d872a15ab3e862eb336935",
+        "e31e56cab6ac495a056ee3d328fff2d958fb28bfe8de36766063bbf2b2dd74a9",
+        "62402baeef92eeda8b67dcdd8e90705e9591a7a421608a4a7509c08c18f91e04",
+        "c7a3e585c5548ef1581e2c3a6f03a79324eefe1e2102d8bd1e89002c0b6f57a1",
+        "4f1a232b353a83f208791d2b36ae3fa7c4f81bd17346d586f7097befb7c8643b",
+        "9b13e51005edb00abcbf69b2c02f774ef792e0723e9560e584695e0f546cb293",
+        "45a5b7c9fe22056a131e3547de543180c7884e1db0ef687fe5a8bd8eea35fb84",
+        "962a3be94c68e30524d0bd3c377acbb22e4d3b9f33d92e8e654d3938d1d3962a"
+      ],
+      "textured_primitive_slot_checks": 321,
+      "procedural_material_base_ORM_normal": {
+        "Master_ochre_linen": true,
+        "Reference03_walnut": true,
+        "V10_BathA_light_warm_grey_tile_appearance": true,
+        "Natural oak": true,
+        "Warm limestone": true,
+        "Study_warm_walnut_desktop": true
+      },
+      "imported_mesh_count": 1559,
+      "imported_image_count": 21
+    },
+    "apartment-design-full.glb": {
+      "original_sha256": "626434441936110517a5f264b399f2fb495a47fc01bd1a35715d90bfac81b5f1",
+      "node_count": 1916,
+      "mesh_count": 1916,
+      "image_count": 21,
+      "material_count": 62,
+      "external_uris": [],
+      "original_embedded_image_sha256": [
+        "62402baeef92eeda8b67dcdd8e90705e9591a7a421608a4a7509c08c18f91e04",
+        "03ce9bde162a05e6fe8e2bb5b64814db20e51d32a45e946a728b785bf96d5f66",
+        "3988aba8c02d7745eb58fc4f6e1d06355fa9a7a0df8d03532b9b474d0d44274f",
+        "b80b9185e0aa37366c76e4b55ddc86ee21ee33c3b2073ecbbe76b44e6f42ff01",
+        "005511e78293f50eab444f123905c1ebe4e47d3820d872a15ab3e862eb336935",
+        "e31e56cab6ac495a056ee3d328fff2d958fb28bfe8de36766063bbf2b2dd74a9",
+        "53716699e8fbc8b6163e43e589c28d3f9b8752497c0904da76ee91c255c6bde8",
+        "cbfac714409718e1aff03de5123802a16add69f7b1ab0ffb6dbe5786086897a6",
+        "5e42e8513fb126a522c044cad7a9bd799a9cd5fff7fab8318092f1dd1fa7aec6",
+        "a37fcb569da858a0620bdfa370815add1de019b69ca338c3c2aeafbb662fb9a4",
+        "dadb76659e3928ecc1f2471fbe6249817a2910368f7fd3c487ba0e2d8a86a377",
+        "962a3be94c68e30524d0bd3c377acbb22e4d3b9f33d92e8e654d3938d1d3962a",
+        "e35b3c9c2651b127a74d05d5ff8cf25470a8de712dc56950b812502a1138ec22",
+        "d7c0c5a497563ba76dd8db1a51c345a25d8482e63f6fbbd692bfc27f1bea0f2b",
+        "fe0837a03fc00f9e8d2897960803d1bc95200574dedf4f6014f9acef77e18e44",
+        "62402baeef92eeda8b67dcdd8e90705e9591a7a421608a4a7509c08c18f91e04",
+        "c7a3e585c5548ef1581e2c3a6f03a79324eefe1e2102d8bd1e89002c0b6f57a1",
+        "4f1a232b353a83f208791d2b36ae3fa7c4f81bd17346d586f7097befb7c8643b",
+        "9b13e51005edb00abcbf69b2c02f774ef792e0723e9560e584695e0f546cb293",
+        "45a5b7c9fe22056a131e3547de543180c7884e1db0ef687fe5a8bd8eea35fb84",
+        "962a3be94c68e30524d0bd3c377acbb22e4d3b9f33d92e8e654d3938d1d3962a"
+      ],
+      "textured_primitive_slot_checks": 408,
+      "procedural_material_base_ORM_normal": {
+        "Natural oak": true,
+        "Master_ochre_linen": true,
+        "Reference03_walnut": true,
+        "V10_BathA_light_warm_grey_tile_appearance": true,
+        "Warm limestone": true,
+        "Study_warm_walnut_desktop": true
+      },
+      "imported_mesh_count": 1916,
+      "imported_image_count": 21
+    },
+    "appliances-only.glb": {
+      "original_sha256": "a26cca0efdd7b14f6b28ac37eb50505770ca515d4ba0250e5e2474aa788d45b9",
+      "node_count": 475,
+      "mesh_count": 475,
+      "image_count": 0,
+      "material_count": 24,
+      "external_uris": [],
+      "original_embedded_image_sha256": [],
+      "textured_primitive_slot_checks": 0,
+      "procedural_material_base_ORM_normal": {},
+      "imported_mesh_count": 475,
+      "imported_image_count": 0
+    },
+    "joinery-only.glb": {
+      "original_sha256": "49ba6304658180a00286a16d9567971a05f272c6fdd44d6c29ea0c1754a83fdb",
+      "node_count": 787,
+      "mesh_count": 787,
+      "image_count": 12,
+      "material_count": 19,
+      "external_uris": [],
+      "original_embedded_image_sha256": [
+        "e35b3c9c2651b127a74d05d5ff8cf25470a8de712dc56950b812502a1138ec22",
+        "d7c0c5a497563ba76dd8db1a51c345a25d8482e63f6fbbd692bfc27f1bea0f2b",
+        "fe0837a03fc00f9e8d2897960803d1bc95200574dedf4f6014f9acef77e18e44",
+        "9b13e51005edb00abcbf69b2c02f774ef792e0723e9560e584695e0f546cb293",
+        "45a5b7c9fe22056a131e3547de543180c7884e1db0ef687fe5a8bd8eea35fb84",
+        "962a3be94c68e30524d0bd3c377acbb22e4d3b9f33d92e8e654d3938d1d3962a",
+        "a37fcb569da858a0620bdfa370815add1de019b69ca338c3c2aeafbb662fb9a4",
+        "dadb76659e3928ecc1f2471fbe6249817a2910368f7fd3c487ba0e2d8a86a377",
+        "962a3be94c68e30524d0bd3c377acbb22e4d3b9f33d92e8e654d3938d1d3962a",
+        "53716699e8fbc8b6163e43e589c28d3f9b8752497c0904da76ee91c255c6bde8",
+        "cbfac714409718e1aff03de5123802a16add69f7b1ab0ffb6dbe5786086897a6",
+        "5e42e8513fb126a522c044cad7a9bd799a9cd5fff7fab8318092f1dd1fa7aec6"
+      ],
+      "textured_primitive_slot_checks": 126,
+      "procedural_material_base_ORM_normal": {
+        "V10_BathA_light_warm_grey_tile_appearance": true,
+        "Study_warm_walnut_desktop": true,
+        "Reference03_walnut": true,
+        "Master_ochre_linen": true
+      },
+      "imported_mesh_count": 787,
+      "imported_image_count": 12
+    }
+  },
+  "preserved_object_count": 2246,
+  "preserved_object_mismatches": [],
+  "status": "passed",
+  "passed": true,
+  "check_count": 71,
+  "failed_checks": [],
+  "publication_note": "V12公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json。-v11规格是沿用的已确认洗衣柜和卧室方案，不是旧版模型。实际举架和现场安装尺寸尚未核实。"
+}

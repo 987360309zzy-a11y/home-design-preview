@@ -1,0 +1,146 @@
+{
+  "version": 11,
+  "room": "bathA",
+  "collection": "28_Laundry_reference_v11",
+  "layout": "south washer enclosure and storage, retained west basin, high-low L relation",
+  "appearance": {
+    "cabinet_material": "User_cabinets_哑光白色",
+    "metal_material": "Brushed steel",
+    "rod_material": "Charcoal metal",
+    "LED_material": "V7_sideboard_warm_LED",
+    "lighting_temperature_label_K": 3000,
+    "reference01_relationships": [
+      "white narrow tower",
+      "white upper doors",
+      "open shelf",
+      "small utility rod",
+      "warm strip light"
+    ],
+    "reference02_relationships": [
+      "high low L relationship with existing west basin"
+    ],
+    "not_adopted": [
+      "stacked two-machine system",
+      "new balcony window",
+      "new raised or relocated sink",
+      "continuous low countertop over 1070mm machine"
+    ]
+  },
+  "dimensions": {
+    "south_wall_group_width_m": 1.7399999999999998,
+    "tower_width_depth_m": [
+      0.3699999999999999,
+      0.45000000000000107
+    ],
+    "tower_top_absolute_m": 2.3,
+    "machine_case_width_depth_m": [
+      0.7,
+      0.7000000000000011
+    ],
+    "machine_opening_net_width_m": 0.6639999999999999,
+    "machine_opening_net_height_m": 1.1199999999999999,
+    "machine_body_world_bounds_m": [
+      [
+        1.9399999380111694,
+        2.5399999618530273
+      ],
+      [
+        8.763571739196777,
+        9.358572006225586
+      ],
+      [
+        0.012000000104308128,
+        1.0820000171661377
+      ]
+    ],
+    "machine_open_back": true,
+    "machine_on_own_feet": true,
+    "machine_counter_top_absolute_m": 1.15,
+    "retained_basin_counter_top_absolute_m": 0.805,
+    "high_low_counter_difference_m": 0.345,
+    "right_case_width_depth_m": [
+      0.6699999999999999,
+      0.45000000000000107
+    ],
+    "upper_depth_m": 0.34999999999999964,
+    "upper_bottom_absolute_m": 1.7,
+    "upper_white_door_count": 4,
+    "upper_white_door_nominal_width_m": 0.34249999999999997,
+    "open_shelf_top_absolute_m": 1.47,
+    "module_bounds_m": [
+      [
+        1.5200001001358032,
+        3.259999990463257
+      ],
+      [
+        8.648571014404297,
+        9.34857177734375
+      ],
+      [
+        0.012000001966953278,
+        2.299999952316284
+      ]
+    ],
+    "tower_front_to_retained_vanity_south_gap_m": 0.3114285714289995,
+    "upper_front_to_conservative_entry_y_gap_m": 0.37285714285757265,
+    "case_to_conservative_entry_x_gap_m": 0.052857142857142936
+  },
+  "machine": {
+    "id": "AP08",
+    "type": "single white three-drum unit",
+    "body_width_depth_height_m": [
+      0.6,
+      0.595,
+      1.07
+    ],
+    "upper_small_doors": 2,
+    "lower_large_doors": 1,
+    "geometry_position_original_UV_unchanged": true,
+    "source_product": "XQGL125-MBLDE697WU1 inherited supplied product evidence",
+    "full_model_includes_door_depth": true
+  },
+  "retained_fixtures": [
+    "WC_A",
+    "C10 west vanity and basin",
+    "SH01 north shower"
+  ],
+  "references": [
+    {
+      "file": "laundry-reference-01-v11.png",
+      "original_filename": "codex-clipboard-32d501c5-5020-4d9f-a990-7fadd76e5378.png",
+      "original_sha256": "322471caec2903f45262ccc4dab43d6a5d46baadf904fd604d67f8eb9746eb5b",
+      "kind": "reference",
+      "dimension_evidence": false,
+      "original_delivery_file": "reference-01.png",
+      "published_sha256": "322471caec2903f45262ccc4dab43d6a5d46baadf904fd604d67f8eb9746eb5b"
+    },
+    {
+      "file": "laundry-reference-02-v11.png",
+      "original_filename": "codex-clipboard-26cd0391-84bd-40ec-acd6-a75c0150c429.png",
+      "original_sha256": "950dab67933a82b4eece2c2ce79107c8119341dd065b6d7ea53016b7c2fdbbf1",
+      "kind": "reference",
+      "dimension_evidence": false,
+      "original_delivery_file": "reference-02.png",
+      "published_sha256": "950dab67933a82b4eece2c2ce79107c8119341dd065b6d7ea53016b7c2fdbbf1"
+    }
+  ],
+  "upper_white_front_count": 4,
+  "lower_fronts": "sliding proposal, no projection when sliding",
+  "height_note": "2300 mm cabinet top and 2450 mm existing ceiling are visual proposals; real room height is unknown",
+  "site_verified": false,
+  "construction_ready": false,
+  "pending": [
+    "Actual room and ceiling heights remain unknown; 2.30m cabinet top is a conceptual model maximum.",
+    "Machine rear and lateral installation clearances require the actual manufacturer instructions.",
+    "Cabinet lower sliding leaves do not project into the retained basin or entry region; real sliders and upper-door hinges are unverified.",
+    "A actual door leaf/hinge and AP08 real door opening geometry remain unverified; this is not a dynamic site pass.",
+    "Lighting and small utility rod are visual proposals, not verified drying capacity or electrical installation."
+  ],
+  "inherited_unchanged_geometry_from_version": 11,
+  "current_delivery_version": 12,
+  "reference_files_in_current_delivery": [
+    "laundry-reference-01-v11.png",
+    "laundry-reference-02-v11.png"
+  ],
+  "publication_note": "V12公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json。-v11规格是沿用的已确认洗衣柜和卧室方案，不是旧版模型。实际举架和现场安装尺寸尚未核实。"
+}

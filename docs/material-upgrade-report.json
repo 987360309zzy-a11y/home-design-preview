@@ -1,0 +1,1046 @@
+{
+  "version": 11,
+  "source_model": "apartment-design-v10.blend",
+  "original_source_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
+  "source_unchanged": true,
+  "library_file": "material-library-v11.blend",
+  "original_library_sha256": "1608e16d1a1d6b4f677261e4cf4c73d04354e455c476a777795cc9e2eef7a0f5",
+  "material_count": 17,
+  "method": "Cycles EMIT source base-color / NORMAL original bump / EMIT packed ORM; CPU 1 sample",
+  "uv_policy": "Dry reference-photo floor UV unchanged. Added physical UV on non-floor procedural materials and wet bathA only.",
+  "tile_pitch_note": "600 mm wet tile grid is inherited model proposal, not a verified site product dimension.",
+  "roughness_variation": "Finish proposal: original roughness +/- 0.035 from original noise; floor +/- 0.025 from approved reference via Blender nodes.",
+  "limitations": [
+    "No whole-apartment light or AO bake; realtime illumination still differs from Cycles.",
+    "Physical box UV projection adjusts procedural grain direction and repeats at documented swatch metre span.",
+    "Original floor and limestone bump is extremely subtle and quantizes to a flat 8-bit tangent normal; no exaggerated relief was invented."
+  ],
+  "materials": [
+    {
+      "name": "Reference03_walnut",
+      "type": "source_procedural_bake",
+      "span_metres": 2.0,
+      "base_color_source_diffuse_linear_rgba": [
+        0.12999999523162842,
+        0.057500001043081284,
+        0.027000000700354576,
+        1.0
+      ],
+      "maps": [
+        {
+          "file": "Reference03_walnut_basecolor_v11.png",
+          "original_sha256": "dadb76659e3928ecc1f2471fbe6249817a2910368f7fd3c487ba0e2d8a86a377",
+          "kind": "BASE",
+          "colorspace": "sRGB",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": [
+            {
+              "min": 0.3490196168422699,
+              "max": 0.4392157196998596,
+              "mean": 0.39596761545176073,
+              "stdev": 0.013230799717844792
+            },
+            {
+              "min": 0.23137256503105164,
+              "max": 0.2980392277240753,
+              "mean": 0.2660216102861986,
+              "stdev": 0.009782432441346276
+            },
+            {
+              "min": 0.15294118225574493,
+              "max": 0.2039215862751007,
+              "mean": 0.17928307826720602,
+              "stdev": 0.007233501712369109
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "Reference03_walnut_normal_v11.png",
+          "original_sha256": "a37fcb569da858a0620bdfa370815add1de019b69ca338c3c2aeafbb662fb9a4",
+          "kind": "NORMAL",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 0.48235297203063965,
+              "max": 0.5176470875740051,
+              "mean": 0.5012179232843751,
+              "stdev": 0.004680919147342468
+            },
+            {
+              "min": 0.501960813999176,
+              "max": 0.501960813999176,
+              "mean": 0.501960813999176,
+              "stdev": 0.0
+            },
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "Reference03_walnut_orm_v11.png",
+          "original_sha256": "962a3be94c68e30524d0bd3c377acbb22e4d3b9f33d92e8e654d3938d1d3962a",
+          "kind": "ORM",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.5215686559677124,
+              "max": 0.5607843399047852,
+              "mean": 0.5400018749212231,
+              "stdev": 0.005449864107635034
+            },
+            {
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        }
+      ]
+    },
+    {
+      "name": "Study_warm_walnut_desktop",
+      "type": "source_procedural_bake",
+      "span_metres": 2.0,
+      "base_color_source_diffuse_linear_rgba": [
+        0.22499999403953552,
+        0.14249999821186066,
+        0.08150000125169754,
+        1.0
+      ],
+      "maps": [
+        {
+          "file": "Study_warm_walnut_desktop_basecolor_v11.png",
+          "original_sha256": "45a5b7c9fe22056a131e3547de543180c7884e1db0ef687fe5a8bd8eea35fb84",
+          "kind": "BASE",
+          "colorspace": "sRGB",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": [
+            {
+              "min": 0.4745098352432251,
+              "max": 0.545098066329956,
+              "mean": 0.5118138396707446,
+              "stdev": 0.010431979248688284
+            },
+            {
+              "min": 0.3764706254005432,
+              "max": 0.44705885648727417,
+              "mean": 0.4135770442348067,
+              "stdev": 0.009959015988869713
+            },
+            {
+              "min": 0.2862745225429535,
+              "max": 0.3450980484485626,
+              "mean": 0.31626027553364683,
+              "stdev": 0.008294699372361504
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "Study_warm_walnut_desktop_normal_v11.png",
+          "original_sha256": "9b13e51005edb00abcbf69b2c02f774ef792e0723e9560e584695e0f546cb293",
+          "kind": "NORMAL",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 0.48235297203063965,
+              "max": 0.5176470875740051,
+              "mean": 0.5012227851346028,
+              "stdev": 0.004680792133682705
+            },
+            {
+              "min": 0.501960813999176,
+              "max": 0.501960813999176,
+              "mean": 0.501960813999176,
+              "stdev": 0.0
+            },
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "Study_warm_walnut_desktop_orm_v11.png",
+          "original_sha256": "962a3be94c68e30524d0bd3c377acbb22e4d3b9f33d92e8e654d3938d1d3962a",
+          "kind": "ORM",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.5215686559677124,
+              "max": 0.5607843399047852,
+              "mean": 0.5400018749212231,
+              "stdev": 0.005449864107635034
+            },
+            {
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        }
+      ]
+    },
+    {
+      "name": "Natural oak",
+      "type": "source_procedural_bake",
+      "span_metres": 2.0,
+      "base_color_source_diffuse_linear_rgba": [
+        0.44999998807907104,
+        0.3100000023841858,
+        0.17000000178813934,
+        1.0
+      ],
+      "maps": [
+        {
+          "file": "Natural_oak_basecolor_v11.png",
+          "original_sha256": "005511e78293f50eab444f123905c1ebe4e47d3820d872a15ab3e862eb336935",
+          "kind": "BASE",
+          "colorspace": "sRGB",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": [
+            {
+              "min": 0.658823549747467,
+              "max": 0.7411764860153198,
+              "mean": 0.7012356084982752,
+              "stdev": 0.012626925711069405
+            },
+            {
+              "min": 0.5607843399047852,
+              "max": 0.6470588445663452,
+              "mean": 0.6052788263451453,
+              "stdev": 0.013190088128376397
+            },
+            {
+              "min": 0.4274510145187378,
+              "max": 0.5058823823928833,
+              "mean": 0.4699898703234857,
+              "stdev": 0.011977495562219921
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "Natural_oak_normal_v11.png",
+          "original_sha256": "b80b9185e0aa37366c76e4b55ddc86ee21ee33c3b2073ecbbe76b44e6f42ff01",
+          "kind": "NORMAL",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 0.501960813999176,
+              "max": 0.501960813999176,
+              "mean": 0.501960813999176,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.4941176772117615,
+              "max": 0.5058823823928833,
+              "mean": 0.5018906088818872,
+              "stdev": 0.0012650830110887367
+            },
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "Natural_oak_orm_v11.png",
+          "original_sha256": "e31e56cab6ac495a056ee3d328fff2d958fb28bfe8de36766063bbf2b2dd74a9",
+          "kind": "ORM",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.458823561668396,
+              "max": 0.501960813999176,
+              "mean": 0.4799992530983788,
+              "stdev": 0.005761943260460228
+            },
+            {
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        }
+      ]
+    },
+    {
+      "name": "Master_ochre_linen",
+      "type": "source_procedural_bake",
+      "span_metres": 2.0,
+      "base_color_source_diffuse_linear_rgba": [
+        0.5299999713897705,
+        0.3400000035762787,
+        0.12999999523162842,
+        1.0
+      ],
+      "maps": [
+        {
+          "file": "Master_ochre_linen_basecolor_v11.png",
+          "original_sha256": "cbfac714409718e1aff03de5123802a16add69f7b1ab0ffb6dbe5786086897a6",
+          "kind": "BASE",
+          "colorspace": "sRGB",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": [
+            {
+              "min": 0.6196078658103943,
+              "max": 0.7803922295570374,
+              "mean": 0.7019699600119464,
+              "stdev": 0.057059990511768695
+            },
+            {
+              "min": 0.5058823823928833,
+              "max": 0.6666666865348816,
+              "mean": 0.5891985484278589,
+              "stdev": 0.05609608822384907
+            },
+            {
+              "min": 0.34117648005485535,
+              "max": 0.4745098352432251,
+              "mean": 0.410205633611322,
+              "stdev": 0.046743519342442294
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "Master_ochre_linen_normal_v11.png",
+          "original_sha256": "53716699e8fbc8b6163e43e589c28d3f9b8752497c0904da76ee91c255c6bde8",
+          "kind": "NORMAL",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 0.48235297203063965,
+              "max": 0.5215686559677124,
+              "mean": 0.5010981272947631,
+              "stdev": 0.00502688061623406
+            },
+            {
+              "min": 0.48235297203063965,
+              "max": 0.5215686559677124,
+              "mean": 0.5010932654445354,
+              "stdev": 0.005104860814919926
+            },
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "Master_ochre_linen_orm_v11.png",
+          "original_sha256": "5e42e8513fb126a522c044cad7a9bd799a9cd5fff7fab8318092f1dd1fa7aec6",
+          "kind": "ORM",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.9019608497619629,
+              "max": 0.9411765336990356,
+              "mean": 0.9199522237667752,
+              "stdev": 0.005809200037018446
+            },
+            {
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        }
+      ],
+      "gltf_sheen_compatibility": {
+        "original_weight": 0.2,
+        "original_tint": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "new_weight": 1,
+        "new_tint": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "reason": "Blender 4.5 glTF exports Tint without multiplying original Weight; preserve intended 0.2 sheen color energy."
+      }
+    },
+    {
+      "name": "Warm limestone",
+      "type": "source_procedural_bake",
+      "span_metres": 2.0,
+      "base_color_source_diffuse_linear_rgba": [
+        0.6399999856948853,
+        0.5899999737739563,
+        0.49000000953674316,
+        1.0
+      ],
+      "maps": [
+        {
+          "file": "Warm_limestone_basecolor_v11.png",
+          "original_sha256": "c7a3e585c5548ef1581e2c3a6f03a79324eefe1e2102d8bd1e89002c0b6f57a1",
+          "kind": "BASE",
+          "colorspace": "sRGB",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": [
+            {
+              "min": 0.8117647767066956,
+              "max": 0.8549020290374756,
+              "mean": 0.8323212628916715,
+              "stdev": 0.006427351396401609
+            },
+            {
+              "min": 0.7843137979507446,
+              "max": 0.8313726186752319,
+              "mean": 0.8080394325881805,
+              "stdev": 0.006922008954281693
+            },
+            {
+              "min": 0.729411780834198,
+              "max": 0.7764706611633301,
+              "mean": 0.7548093504861955,
+              "stdev": 0.007273572250761286
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "Warm_limestone_normal_v11.png",
+          "original_sha256": "62402baeef92eeda8b67dcdd8e90705e9591a7a421608a4a7509c08c18f91e04",
+          "kind": "NORMAL",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 0.501960813999176,
+              "max": 0.501960813999176,
+              "mean": 0.501960813999176,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.501960813999176,
+              "max": 0.501960813999176,
+              "mean": 0.501960813999176,
+              "stdev": 0.0
+            },
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": false
+        },
+        {
+          "file": "Warm_limestone_orm_v11.png",
+          "original_sha256": "4f1a232b353a83f208791d2b36ae3fa7c4f81bd17346d586f7097befb7c8643b",
+          "kind": "ORM",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.5411764979362488,
+              "max": 0.5803921818733215,
+              "mean": 0.5600531176305308,
+              "stdev": 0.005752545068439484
+            },
+            {
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        }
+      ]
+    },
+    {
+      "name": "V10_BathA_light_warm_grey_tile_appearance",
+      "type": "source_procedural_bake",
+      "span_metres": 1.2,
+      "base_color_source_diffuse_linear_rgba": [
+        0.5699999928474426,
+        0.550000011920929,
+        0.5099999904632568,
+        1.0
+      ],
+      "maps": [
+        {
+          "file": "V10_BathA_light_warm_grey_tile_appearance_basecolor_v11.png",
+          "original_sha256": "d7c0c5a497563ba76dd8db1a51c345a25d8482e63f6fbbd692bfc27f1bea0f2b",
+          "kind": "BASE",
+          "colorspace": "sRGB",
+          "size": [
+            1024,
+            1024
+          ],
+          "channels": [
+            {
+              "min": 0.6784313917160034,
+              "max": 0.7803922295570374,
+              "mean": 0.7768792501312907,
+              "stdev": 0.012513804136586426
+            },
+            {
+              "min": 0.6745098233222961,
+              "max": 0.7686275243759155,
+              "mean": 0.7652362856798718,
+              "stdev": 0.011557035697655798
+            },
+            {
+              "min": 0.658823549747467,
+              "max": 0.7411764860153198,
+              "mean": 0.7398982083534384,
+              "stdev": 0.010180173134122564
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "V10_BathA_light_warm_grey_tile_appearance_normal_v11.png",
+          "original_sha256": "e35b3c9c2651b127a74d05d5ff8cf25470a8de712dc56950b812502a1138ec22",
+          "kind": "NORMAL",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 0.4941176772117615,
+              "max": 0.5058823823928833,
+              "mean": 0.5019508958247114,
+              "stdev": 0.00046610612649873373
+            },
+            {
+              "min": 0.4941176772117615,
+              "max": 0.5058823823928833,
+              "mean": 0.5019510902987205,
+              "stdev": 0.000500052392732347
+            },
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "V10_BathA_light_warm_grey_tile_appearance_orm_v11.png",
+          "original_sha256": "fe0837a03fc00f9e8d2897960803d1bc95200574dedf4f6014f9acef77e18e44",
+          "kind": "ORM",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.6980392336845398,
+              "max": 0.7411764860153198,
+              "mean": 0.7200480517695508,
+              "stdev": 0.005755478896936322
+            },
+            {
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        }
+      ]
+    },
+    {
+      "name": "V5_REF02_AI_clean_caramel_wood",
+      "type": "reference_photo_preserved_with_baked_response",
+      "span_metres": null,
+      "existing_uv_required": "V5_PlankUV",
+      "maps": [
+        {
+          "file": "floor-basecolor-v11-reference-preserved.png",
+          "original_sha256": "03ce9bde162a05e6fe8e2bb5b64814db20e51d32a45e946a728b785bf96d5f66",
+          "kind": "BASE",
+          "original_source_file_sha256": "03ce9bde162a05e6fe8e2bb5b64814db20e51d32a45e946a728b785bf96d5f66",
+          "unchanged_bytes": true,
+          "size": [
+            1254,
+            1254
+          ],
+          "channels": [
+            {
+              "min": 0.3960784673690796,
+              "max": 0.8431373238563538,
+              "mean": 0.6435916582114592,
+              "stdev": 0.045555587935371386
+            },
+            {
+              "min": 0.23137256503105164,
+              "max": 0.6705882549285889,
+              "mean": 0.4699627138867536,
+              "stdev": 0.04472912624885308
+            },
+            {
+              "min": 0.12941177189350128,
+              "max": 0.5411764979362488,
+              "mean": 0.3555383265068722,
+              "stdev": 0.041190621366976134
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "reference_floor_normal_v11.png",
+          "original_sha256": "62402baeef92eeda8b67dcdd8e90705e9591a7a421608a4a7509c08c18f91e04",
+          "kind": "NORMAL",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 0.501960813999176,
+              "max": 0.501960813999176,
+              "mean": 0.501960813999176,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.501960813999176,
+              "max": 0.501960813999176,
+              "mean": 0.501960813999176,
+              "stdev": 0.0
+            },
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": false
+        },
+        {
+          "file": "reference_floor_orm_v11.png",
+          "original_sha256": "3988aba8c02d7745eb58fc4f6e1d06355fa9a7a0df8d03532b9b474d0d44274f",
+          "kind": "ORM",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.6196078658103943,
+              "max": 0.6392157077789307,
+              "mean": 0.6261206059014859,
+              "stdev": 0.002287328394483819
+            },
+            {
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        }
+      ]
+    },
+    {
+      "name": "V5_REF02_wet_finish_color_proposal",
+      "type": "reference_photo_preserved_with_baked_response",
+      "span_metres": null,
+      "existing_uv_required": "V5_PlankUV",
+      "maps": [
+        {
+          "file": "floor-basecolor-v11-reference-preserved.png",
+          "original_sha256": "03ce9bde162a05e6fe8e2bb5b64814db20e51d32a45e946a728b785bf96d5f66",
+          "kind": "BASE",
+          "original_source_file_sha256": "03ce9bde162a05e6fe8e2bb5b64814db20e51d32a45e946a728b785bf96d5f66",
+          "unchanged_bytes": true,
+          "size": [
+            1254,
+            1254
+          ],
+          "channels": [
+            {
+              "min": 0.3960784673690796,
+              "max": 0.8431373238563538,
+              "mean": 0.6435916582114592,
+              "stdev": 0.045555587935371386
+            },
+            {
+              "min": 0.23137256503105164,
+              "max": 0.6705882549285889,
+              "mean": 0.4699627138867536,
+              "stdev": 0.04472912624885308
+            },
+            {
+              "min": 0.12941177189350128,
+              "max": 0.5411764979362488,
+              "mean": 0.3555383265068722,
+              "stdev": 0.041190621366976134
+            }
+          ],
+          "nonconstant": true
+        },
+        {
+          "file": "reference_floor_normal_v11.png",
+          "original_sha256": "62402baeef92eeda8b67dcdd8e90705e9591a7a421608a4a7509c08c18f91e04",
+          "kind": "NORMAL",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 0.501960813999176,
+              "max": 0.501960813999176,
+              "mean": 0.501960813999176,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.501960813999176,
+              "max": 0.501960813999176,
+              "mean": 0.501960813999176,
+              "stdev": 0.0
+            },
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": false
+        },
+        {
+          "file": "reference_floor_orm_v11.png",
+          "original_sha256": "3988aba8c02d7745eb58fc4f6e1d06355fa9a7a0df8d03532b9b474d0d44274f",
+          "kind": "ORM",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "channels": [
+            {
+              "min": 1.0,
+              "max": 1.0,
+              "mean": 1.0,
+              "stdev": 0.0
+            },
+            {
+              "min": 0.6196078658103943,
+              "max": 0.6392157077789307,
+              "mean": 0.6261206059014859,
+              "stdev": 0.002287328394483819
+            },
+            {
+              "min": 0.0,
+              "max": 0.0,
+              "mean": 0.0,
+              "stdev": 0.0
+            }
+          ],
+          "nonconstant": true
+        }
+      ]
+    },
+    {
+      "name": "User_cabinets_哑光白色",
+      "type": "finish_proposal",
+      "base_color_unchanged_linear_rgba": [
+        0.8962693810462952,
+        0.8796223998069763,
+        0.838798999786377,
+        1.0
+      ],
+      "old_parameters": {
+        "Roughness": 0.6499999761581421,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746
+      },
+      "new_parameters": {
+        "Roughness": 0.55,
+        "Coat Weight": 0.045,
+        "Coat Roughness": 0.3
+      }
+    },
+    {
+      "name": "Cabinet_matte_warm_white",
+      "type": "finish_proposal",
+      "base_color_unchanged_linear_rgba": [
+        0.6800000071525574,
+        0.6600000262260437,
+        0.6000000238418579,
+        1.0
+      ],
+      "old_parameters": {
+        "Roughness": 0.5299999713897705,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746
+      },
+      "new_parameters": {
+        "Roughness": 0.5,
+        "Coat Weight": 0.04,
+        "Coat Roughness": 0.3
+      }
+    },
+    {
+      "name": "V5 appliance satin warm white",
+      "type": "finish_proposal",
+      "base_color_unchanged_linear_rgba": [
+        0.838798999786377,
+        0.8307698965072632,
+        0.7912979125976562,
+        1.0
+      ],
+      "old_parameters": {
+        "Roughness": 0.30000001192092896,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746
+      },
+      "new_parameters": {
+        "Roughness": 0.34,
+        "Coat Weight": 0.08,
+        "Coat Roughness": 0.22
+      }
+    },
+    {
+      "name": "Brushed steel",
+      "type": "finish_proposal",
+      "base_color_unchanged_linear_rgba": [
+        0.44999998807907104,
+        0.47999998927116394,
+        0.47999998927116394,
+        1.0
+      ],
+      "old_parameters": {
+        "Roughness": 0.23999999463558197,
+        "Anisotropic": 0.0
+      },
+      "new_parameters": {
+        "Roughness": 0.27,
+        "Anisotropic": 0.18
+      }
+    },
+    {
+      "name": "V5 brushed stainless steel",
+      "type": "finish_proposal",
+      "base_color_unchanged_linear_rgba": [
+        0.4564110338687897,
+        0.4910208582878113,
+        0.5271151065826416,
+        1.0
+      ],
+      "old_parameters": {
+        "Roughness": 0.30000001192092896,
+        "Anisotropic": 0.0
+      },
+      "new_parameters": {
+        "Roughness": 0.28,
+        "Anisotropic": 0.2
+      }
+    },
+    {
+      "name": "V5 anodized satin silver",
+      "type": "finish_proposal",
+      "base_color_unchanged_linear_rgba": [
+        0.30946892499923706,
+        0.3324515223503113,
+        0.34670406579971313,
+        1.0
+      ],
+      "old_parameters": {
+        "Roughness": 0.3499999940395355
+      },
+      "new_parameters": {
+        "Roughness": 0.29
+      }
+    },
+    {
+      "name": "V6 ProMax black curved door glass",
+      "type": "finish_proposal",
+      "base_color_unchanged_linear_rgba": [
+        0.005605391692370176,
+        0.00802319310605526,
+        0.01032982300966978,
+        1.0
+      ],
+      "old_parameters": {
+        "Roughness": 0.11999999731779099,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746
+      },
+      "new_parameters": {
+        "Roughness": 0.075,
+        "Coat Weight": 0.3,
+        "Coat Roughness": 0.075
+      }
+    },
+    {
+      "name": "V5 TV off screen reflective glass",
+      "type": "finish_proposal",
+      "base_color_unchanged_linear_rgba": [
+        0.014443843625485897,
+        0.022173885256052017,
+        0.026241222396492958,
+        1.0
+      ],
+      "old_parameters": {
+        "Roughness": 0.10999999940395355,
+        "Coat Weight": 0.0,
+        "Coat Roughness": 0.029999999329447746
+      },
+      "new_parameters": {
+        "Roughness": 0.09,
+        "Coat Weight": 0.18,
+        "Coat Roughness": 0.09
+      }
+    },
+    {
+      "name": "V10_Shower_clear_safety_glass_appearance",
+      "type": "finish_proposal",
+      "base_color_unchanged_linear_rgba": [
+        0.8799999952316284,
+        0.9599999785423279,
+        0.9599999785423279,
+        1.0
+      ],
+      "old_parameters": {
+        "Roughness": 0.03500000014901161
+      },
+      "new_parameters": {
+        "Roughness": 0.065
+      }
+    }
+  ],
+  "publication_note": "V12公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json。-v11规格是沿用的已确认洗衣柜和卧室方案，不是旧版模型。实际举架和现场安装尺寸尚未核实。"
+}

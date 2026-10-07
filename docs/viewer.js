@@ -1,3 +1,4 @@
+// V12 GLB materials already contain their baked base-color, normal and ORM maps.
 const section = document.querySelector('#model');
 const viewer = document.querySelector('#home-model');
 const status = document.querySelector('#viewer-status');
@@ -10,27 +11,17 @@ const modelButtons = [...document.querySelectorAll('[data-model]')];
 const viewButtons = [...document.querySelectorAll('[data-view]')];
 const zoomButtons = [...document.querySelectorAll('[data-zoom]')];
 const models = {
-  cutaway: {file: 'apartment-design-cutaway.glb', label: '全屋切面'},
-  full: {file: 'apartment-design-full.glb', label: '完整模型'},
-  joinery: {file: 'joinery-only.glb', label: '仅柜体'},
-  appliances: {file: 'appliances-only.glb', label: '仅电器'}
-};
-// Linear RGBA from the original V10 Blender material diffuse/Principled colors.
-// Procedural textures are not present in glTF. Only these six named materials
-// receive a display approximation. The floor texture and GLB files stay intact.
-const materialColors = {
-  Reference03_walnut: [0.13, 0.0575, 0.027, 1],
-  Study_warm_walnut_desktop: [0.225, 0.1425, 0.0815, 1],
-  'Natural oak': [0.45, 0.31, 0.17, 1],
-  Master_ochre_linen: [0.53, 0.34, 0.13, 1],
-  'Warm limestone': [0.64, 0.59, 0.49, 1],
-  V10_BathA_light_warm_grey_tile_appearance: [0.57, 0.55, 0.51, 1]
+  cutaway: {file: 'apartment-design-cutaway-v12.glb', label: '全屋切面'},
+  full: {file: 'apartment-design-full-v12.glb', label: '完整模型'},
+  joinery: {file: 'joinery-only-v12.glb', label: '仅柜体'},
+  appliances: {file: 'appliances-only-v12.glb', label: '仅电器'}
 };
 let selected = 'cutaway';
 let busy = false;
 let started = false;
 let libraryPromise;
 let timeout;
+let pendingView = 'default';
 function setBusy(value) {
   busy = value;
   modelButtons.forEach(button => {button.disabled = value;});
@@ -53,11 +44,29 @@ function resetView(orbit = '45deg 35deg 105%') {
   viewer.cameraTarget = 'auto auto auto';
   viewer.cameraOrbit = orbit;
   viewer.fieldOfView = '30deg';
+  section.dataset.viewPreset = orbit.startsWith('0deg') ? 'top' : 'angled';
   viewer.jumpCameraToGoal();
 }
-async function loadModel(key) {
+function setLaundryView() {
+  pendingView = 'laundry';
+  viewer.cameraTarget = '2.35m 1.15m -9.1m';
+  viewer.cameraOrbit = '165deg 84deg 1.45m';
+  viewer.fieldOfView = '85deg';
+  viewer.jumpCameraToGoal();
+  section.dataset.viewPreset = 'laundry';
+}
+function setTelevisionView() {
+  pendingView = 'television';
+  viewer.cameraTarget = '6.9m 1.3m -3.5m';
+  viewer.cameraOrbit = '-90deg 86deg 2.7m';
+  viewer.fieldOfView = '65deg';
+  viewer.jumpCameraToGoal();
+  section.dataset.viewPreset = 'television';
+}
+async function loadModel(key, preset = 'default') {
   if (busy || !models[key]) return;
   selected = key;
+  pendingView = preset;
   started = true;
   setBusy(true);
   section.dataset.loadState = 'loading';
@@ -96,11 +105,9 @@ viewer.addEventListener('progress', event => {
 viewer.addEventListener('load', () => {
   if (!viewer.loaded || viewer.src !== models[selected].file) return;
   clearTimeout(timeout);
-  for (const material of viewer.model?.materials ?? []) {
-    const color = materialColors[material.name];
-    if (color) material.pbrMetallicRoughness.setBaseColorFactor(color);
-  }
-  resetView();
+  if (pendingView === 'laundry') setLaundryView();
+  else if (pendingView === 'television') setTelevisionView();
+  else resetView();
   section.dataset.loadState = 'ready';
   section.dataset.loadedModel = selected;
   progress.hidden = true;
@@ -110,12 +117,23 @@ viewer.addEventListener('load', () => {
   setBusy(false);
 });
 viewer.addEventListener('error', fail);
-startButton.addEventListener('click', () => loadModel(selected));
-retryButton.addEventListener('click', () => loadModel(selected));
+startButton.addEventListener('click', () => loadModel(selected, pendingView));
+retryButton.addEventListener('click', () => loadModel(selected, pendingView));
 modelButtons.forEach(button => button.addEventListener('click', () => {
   if (button.dataset.model !== selected || !viewer.loaded) loadModel(button.dataset.model);
 }));
 viewButtons.forEach(button => button.addEventListener('click', () => {
+  if (button.dataset.view === 'television') {
+    if (selected !== 'full' || !viewer.loaded) loadModel('full', 'television');
+    else setTelevisionView();
+    return;
+  }
+  if (button.dataset.view === 'laundry') {
+    if (selected !== 'cutaway' || !viewer.loaded) loadModel('cutaway', 'laundry');
+    else setLaundryView();
+    return;
+  }
+  pendingView = 'default';
   resetView(button.dataset.view === 'top' ? '0deg 0.5deg 95%' : '45deg 35deg 105%');
 }));
 zoomButtons.forEach(button => button.addEventListener('click', () => viewer.zoom(Number(button.dataset.zoom))));

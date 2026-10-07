@@ -1,26 +1,18 @@
 {
-  "version": 10,
+  "version": 11,
   "module": "bedroom_joinery",
-  "source_model": "apartment-design-v9.blend",
-  "original_source_model_sha256": "eb82d121c8c9e2790d32ae702f1ded2a5d5be65a8182907fa90ca25a9cc59810",
+  "source_model": "apartment-design-v10.blend",
+  "original_source_model_sha256": "84b80dbe525a7d01c1ded59e3047857c2f61b16888d060935e4ea1b8d69290f5",
   "collection": "25_Bedroom_joinery_v10",
   "common_B_collection": "25_Common_B_v10",
-  "primary_C_collection": "25_Main_C_conditional_demolition_v10",
-  "alternate_C_collection": "25_Alternate_C_retain_wall_v10",
-  "default_C_variant": "conditional_short_wall_removal",
-  "C_collections_mutually_exclusive": true,
+  "primary_C_collection": "25_Main_C_no_wall_v11",
+  "default_C_variant": "user_confirmed_no_wall",
   "annotation_reference": {
     "file": "reference-annotated-layout.png",
     "original_sha256": "cdc0bb409d80752131487b42b29742d2a1785f7a680ca2e8ec4e249b3521b232",
     "dimension_evidence": false
   },
-  "primary_requires_targeted_wall_ids": [
-    "bedC_divider",
-    "bedC_divider_return"
-  ],
   "original_wall_meshes_modified_by_module": false,
-  "wall_structure": null,
-  "wall_removal_professionally_approved": false,
   "actual_room_height_m": null,
   "old_3m_is_current_confirmed_height": false,
   "height_note": "主体Z2700沿用模型提案；B北返边Z2300避原空调；均非实测高度。",
@@ -244,7 +236,7 @@
       "id": "C06",
       "module": "main",
       "root": "V10_C06_main",
-      "collection": "25_Main_C_conditional_demolition_v10",
+      "collection": "25_Main_C_no_wall_v11",
       "width_depth_top_m": [
         2.1,
         0.6,
@@ -312,7 +304,7 @@
       ],
       "actual_dimensions_m": null,
       "site_verified": false,
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "opening_motion_verified": false,
       "world_bounds_m": [
         [
@@ -333,7 +325,7 @@
       "id": "C06",
       "module": "east_return",
       "root": "V10_C06_east_return",
-      "collection": "25_Main_C_conditional_demolition_v10",
+      "collection": "25_Main_C_no_wall_v11",
       "width_depth_top_m": [
         1.26,
         0.6,
@@ -399,7 +391,7 @@
       ],
       "actual_dimensions_m": null,
       "site_verified": false,
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "opening_motion_verified": false,
       "world_bounds_m": [
         [
@@ -409,195 +401,6 @@
         [
           4.442857265472412,
           5.702856540679932
-        ],
-        [
-          0.012000001966953278,
-          2.700000047683716
-        ]
-      ]
-    },
-    {
-      "id": "C06_ALT",
-      "module": "south_independent",
-      "root": "V10_C06_ALT_south_independent",
-      "collection": "25_Alternate_C_retain_wall_v10",
-      "width_depth_top_m": [
-        2.1,
-        0.6,
-        2.7
-      ],
-      "finished_floor_z_m": 0.012,
-      "finished_height_m": 2.688,
-      "angle_deg": 0,
-      "position_m": [
-        9.6,
-        4.142857,
-        0
-      ],
-      "zones": [
-        {
-          "id": "V10_C06_ALT_south_independent_bay1",
-          "kind": "long_hang",
-          "width_clear_m": 0.6729999999999999,
-          "depth_clear_m": 0.569,
-          "bay_width_proposal_m": 0.7,
-          "actual_site_dimensions_m": null,
-          "hardware_selected": false,
-          "clear_compartment_height_m": 1.4709999999999999,
-          "rod_underside_height_above_compartment_floor_m": 1.388,
-          "long_garment_length_proposal_m": 1.22,
-          "rod_length_m": 0.6229999999999999,
-          "compartment_floor_absolute_m": 0.11,
-          "ceiling_absolute_m": 1.581
-        },
-        {
-          "id": "V10_C06_ALT_south_independent_bay2",
-          "kind": "double_short_hang",
-          "width_clear_m": 0.6819999999999999,
-          "depth_clear_m": 0.569,
-          "bay_width_proposal_m": 0.7,
-          "actual_site_dimensions_m": null,
-          "hardware_selected": false,
-          "short_hang_levels": [
-            {
-              "clear_compartment_height_m": 1.081,
-              "rod_underside_height_above_compartment_floor_m": 1.0279999999999998,
-              "compartment_floor_absolute_m": 0.11,
-              "ceiling_absolute_m": 1.191
-            },
-            {
-              "clear_compartment_height_m": 1.1219999999999999,
-              "rod_underside_height_above_compartment_floor_m": 1.029,
-              "compartment_floor_absolute_m": 1.209,
-              "ceiling_absolute_m": 2.331
-            }
-          ],
-          "rod_length_m": 0.6319999999999999
-        },
-        {
-          "id": "V10_C06_ALT_south_independent_bay3",
-          "kind": "double_short_hang",
-          "width_clear_m": 0.6729999999999999,
-          "depth_clear_m": 0.569,
-          "bay_width_proposal_m": 0.7,
-          "actual_site_dimensions_m": null,
-          "hardware_selected": false,
-          "short_hang_levels": [
-            {
-              "clear_compartment_height_m": 1.081,
-              "rod_underside_height_above_compartment_floor_m": 1.0279999999999998,
-              "compartment_floor_absolute_m": 0.11,
-              "ceiling_absolute_m": 1.191
-            },
-            {
-              "clear_compartment_height_m": 1.1219999999999999,
-              "rod_underside_height_above_compartment_floor_m": 1.029,
-              "compartment_floor_absolute_m": 1.209,
-              "ceiling_absolute_m": 2.331
-            }
-          ],
-          "rod_length_m": 0.6229999999999999
-        }
-      ],
-      "actual_dimensions_m": null,
-      "site_verified": false,
-      "variant": "retained_short_wall_independent_cabinets",
-      "opening_motion_verified": false,
-      "world_bounds_m": [
-        [
-          8.550000190734863,
-          10.65000057220459
-        ],
-        [
-          3.811357021331787,
-          4.442857265472412
-        ],
-        [
-          0.012000001966953278,
-          2.700000047683716
-        ]
-      ]
-    },
-    {
-      "id": "C06_ALT",
-      "module": "north_independent",
-      "root": "V10_C06_ALT_north_independent",
-      "collection": "25_Alternate_C_retain_wall_v10",
-      "width_depth_top_m": [
-        1.06,
-        0.6,
-        2.7
-      ],
-      "finished_floor_z_m": 0.012,
-      "finished_height_m": 2.688,
-      "angle_deg": -90,
-      "position_m": [
-        10.35,
-        5.18,
-        0
-      ],
-      "zones": [
-        {
-          "id": "V10_C06_ALT_north_independent_bay1",
-          "kind": "double_short_hang",
-          "width_clear_m": 0.503,
-          "depth_clear_m": 0.569,
-          "bay_width_proposal_m": 0.53,
-          "actual_site_dimensions_m": null,
-          "hardware_selected": false,
-          "short_hang_levels": [
-            {
-              "clear_compartment_height_m": 1.081,
-              "rod_underside_height_above_compartment_floor_m": 1.0279999999999998,
-              "compartment_floor_absolute_m": 0.11,
-              "ceiling_absolute_m": 1.191
-            },
-            {
-              "clear_compartment_height_m": 1.1219999999999999,
-              "rod_underside_height_above_compartment_floor_m": 1.029,
-              "compartment_floor_absolute_m": 1.209,
-              "ceiling_absolute_m": 2.331
-            }
-          ],
-          "rod_length_m": 0.453
-        },
-        {
-          "id": "V10_C06_ALT_north_independent_bay2",
-          "kind": "double_short_hang",
-          "width_clear_m": 0.503,
-          "depth_clear_m": 0.569,
-          "bay_width_proposal_m": 0.53,
-          "actual_site_dimensions_m": null,
-          "hardware_selected": false,
-          "short_hang_levels": [
-            {
-              "clear_compartment_height_m": 1.081,
-              "rod_underside_height_above_compartment_floor_m": 1.0279999999999998,
-              "compartment_floor_absolute_m": 0.11,
-              "ceiling_absolute_m": 1.191
-            },
-            {
-              "clear_compartment_height_m": 1.1219999999999999,
-              "rod_underside_height_above_compartment_floor_m": 1.029,
-              "compartment_floor_absolute_m": 1.209,
-              "ceiling_absolute_m": 2.331
-            }
-          ],
-          "rod_length_m": 0.453
-        }
-      ],
-      "actual_dimensions_m": null,
-      "site_verified": false,
-      "variant": "retained_short_wall_independent_cabinets",
-      "opening_motion_verified": false,
-      "world_bounds_m": [
-        [
-          10.018500328063965,
-          10.65000057220459
-        ],
-        [
-          4.650000095367432,
-          5.7099995613098145
         ],
         [
           0.012000001966953278,
@@ -981,38 +784,6 @@
       "interior_view_hides_fronts": true
     },
     {
-      "name": "CAM_V10_C_retained_north",
-      "location_m": [
-        9.1,
-        5.27,
-        1.46
-      ],
-      "target_m": [
-        10.25,
-        5.15,
-        1.35
-      ],
-      "lens_mm": 22,
-      "variant": "retained_wall",
-      "interior_view_hides_fronts": false
-    },
-    {
-      "name": "CAM_V10_C_retained_wall",
-      "location_m": [
-        8.14,
-        3.18,
-        1.46
-      ],
-      "target_m": [
-        9.75,
-        4.85,
-        1.35
-      ],
-      "lens_mm": 18,
-      "variant": "retained_wall",
-      "interior_view_hides_fronts": false
-    },
-    {
       "name": "CAM_V10_B_window_white",
       "location_m": [
         2.42,
@@ -1046,7 +817,7 @@
       "V10_C05_north_return_bay2_leaf1_recessed_grip",
       "V10_C05_north_return_bay2_leaf1_white_door"
     ],
-    "25_Main_C_conditional_demolition_v10": [
+    "25_Main_C_no_wall_v11": [
       "V10_C06_east_return_bay1_leaf1_recessed_grip",
       "V10_C06_east_return_bay1_leaf1_white_door",
       "V10_C06_east_return_bay2_leaf1_recessed_grip",
@@ -1059,24 +830,6 @@
       "V10_C06_main_bay2_leaf1_white_door",
       "V10_C06_main_bay2_leaf2_recessed_grip",
       "V10_C06_main_bay2_leaf2_white_door"
-    ],
-    "25_Alternate_C_retain_wall_v10": [
-      "V10_C06_ALT_north_independent_bay1_leaf1_recessed_grip",
-      "V10_C06_ALT_north_independent_bay1_leaf1_white_door",
-      "V10_C06_ALT_north_independent_bay2_leaf1_recessed_grip",
-      "V10_C06_ALT_north_independent_bay2_leaf1_white_door",
-      "V10_C06_ALT_south_independent_bay1_leaf1_recessed_grip",
-      "V10_C06_ALT_south_independent_bay1_leaf1_white_door",
-      "V10_C06_ALT_south_independent_bay1_leaf2_recessed_grip",
-      "V10_C06_ALT_south_independent_bay1_leaf2_white_door",
-      "V10_C06_ALT_south_independent_bay2_leaf1_recessed_grip",
-      "V10_C06_ALT_south_independent_bay2_leaf1_white_door",
-      "V10_C06_ALT_south_independent_bay2_leaf2_recessed_grip",
-      "V10_C06_ALT_south_independent_bay2_leaf2_white_door",
-      "V10_C06_ALT_south_independent_bay3_leaf1_recessed_grip",
-      "V10_C06_ALT_south_independent_bay3_leaf1_white_door",
-      "V10_C06_ALT_south_independent_bay3_leaf2_recessed_grip",
-      "V10_C06_ALT_south_independent_bay3_leaf2_white_door"
     ]
   },
   "static_clearances": {
@@ -1097,12 +850,10 @@
     "AC_airflow_or_service_clearance_verified": false,
     "note": "C约297mm只对应东床头边缘局部，不认定人行通道；衣柜可用正面主要对床基约853.5mm。保守房门90度扇形按源示意铰链，实物门向未知。"
   },
-  "local_validation_file": "bedroom-local-validation-v10.json",
-  "structural_retention_alternative": "短墙南北两侧独立白柜，不伪称连续L；切换时必须隐藏主C集合并保留原墙。",
+  "local_validation_file": "independent-model-validation-v11.json",
   "site_verified": false,
   "construction_ready": false,
   "pending": [
-    "目标短墙属性及可拆范围必须结构/物业专业确认；主方案不证明可拆。",
     "实测房高、完成墙距、踢脚/阴阳角及窗台承重。",
     "所有柜门、抽屉、转角五金、房门扫掠及人体使用。",
     "B返边至AP11为模型84.5mm静态净空，不认证气流/厂家检修要求。",
@@ -3427,7 +3178,7 @@
       "name": "V10_C06_main",
       "type": "EMPTY",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "cabinet_root",
       "world_bounds_m": null
     },
@@ -3435,7 +3186,7 @@
       "name": "V10_C06_main_left_side",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_side",
       "world_bounds_m": [
         [
@@ -3456,7 +3207,7 @@
       "name": "V10_C06_main_right_side",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_side",
       "world_bounds_m": [
         [
@@ -3477,7 +3228,7 @@
       "name": "V10_C06_main_bottom",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_bottom",
       "world_bounds_m": [
         [
@@ -3498,7 +3249,7 @@
       "name": "V10_C06_main_top",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_top",
       "world_bounds_m": [
         [
@@ -3519,7 +3270,7 @@
       "name": "V10_C06_main_back",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_back",
       "world_bounds_m": [
         [
@@ -3540,7 +3291,7 @@
       "name": "V10_C06_main_toe",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "recessed_toe",
       "world_bounds_m": [
         [
@@ -3561,7 +3312,7 @@
       "name": "V10_C06_main_partition_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "bay_partition",
       "world_bounds_m": [
         [
@@ -3582,7 +3333,7 @@
       "name": "V10_C06_main_partition_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "bay_partition",
       "world_bounds_m": [
         [
@@ -3603,7 +3354,7 @@
       "name": "V10_C06_east_return",
       "type": "EMPTY",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "cabinet_root",
       "world_bounds_m": null
     },
@@ -3611,7 +3362,7 @@
       "name": "V10_C06_east_return_left_side",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_side",
       "world_bounds_m": [
         [
@@ -3632,7 +3383,7 @@
       "name": "V10_C06_east_return_right_side",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_side",
       "world_bounds_m": [
         [
@@ -3653,7 +3404,7 @@
       "name": "V10_C06_east_return_bottom",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_bottom",
       "world_bounds_m": [
         [
@@ -3674,7 +3425,7 @@
       "name": "V10_C06_east_return_top",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_top",
       "world_bounds_m": [
         [
@@ -3695,7 +3446,7 @@
       "name": "V10_C06_east_return_back",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "case_back",
       "world_bounds_m": [
         [
@@ -3716,7 +3467,7 @@
       "name": "V10_C06_east_return_toe",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "recessed_toe",
       "world_bounds_m": [
         [
@@ -3737,7 +3488,7 @@
       "name": "V10_C06_east_return_partition_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "bay_partition",
       "world_bounds_m": [
         [
@@ -3758,7 +3509,7 @@
       "name": "V10_C06_main_minor_walnut_plinth_line",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "minor_walnut_line",
       "world_bounds_m": [
         [
@@ -3779,7 +3530,7 @@
       "name": "V10_C06_east_return_minor_walnut_plinth_line",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "minor_walnut_line",
       "world_bounds_m": [
         [
@@ -3800,7 +3551,7 @@
       "name": "V10_C06_main_bay1_leaf1_white_door",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "white_door",
       "world_bounds_m": [
         [
@@ -3821,7 +3572,7 @@
       "name": "V10_C06_main_bay1_leaf1_recessed_grip",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "door_grip",
       "world_bounds_m": [
         [
@@ -3842,7 +3593,7 @@
       "name": "V10_C06_main_bay1_leaf2_white_door",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "white_door",
       "world_bounds_m": [
         [
@@ -3863,7 +3614,7 @@
       "name": "V10_C06_main_bay1_leaf2_recessed_grip",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "door_grip",
       "world_bounds_m": [
         [
@@ -3884,7 +3635,7 @@
       "name": "V10_C06_main_bay2_leaf1_white_door",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "white_door",
       "world_bounds_m": [
         [
@@ -3905,7 +3656,7 @@
       "name": "V10_C06_main_bay2_leaf1_recessed_grip",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "door_grip",
       "world_bounds_m": [
         [
@@ -3926,7 +3677,7 @@
       "name": "V10_C06_main_bay2_leaf2_white_door",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "white_door",
       "world_bounds_m": [
         [
@@ -3947,7 +3698,7 @@
       "name": "V10_C06_main_bay2_leaf2_recessed_grip",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "door_grip",
       "world_bounds_m": [
         [
@@ -3968,7 +3719,7 @@
       "name": "V10_C06_east_return_bay1_leaf1_white_door",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "white_door",
       "world_bounds_m": [
         [
@@ -3989,7 +3740,7 @@
       "name": "V10_C06_east_return_bay1_leaf1_recessed_grip",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "door_grip",
       "world_bounds_m": [
         [
@@ -4010,7 +3761,7 @@
       "name": "V10_C06_east_return_bay2_leaf1_white_door",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "white_door",
       "world_bounds_m": [
         [
@@ -4031,7 +3782,7 @@
       "name": "V10_C06_east_return_bay2_leaf1_recessed_grip",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "door_grip",
       "world_bounds_m": [
         [
@@ -4052,7 +3803,7 @@
       "name": "V10_C06_main_bay1_long_top_shelf",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "long_hang_shelf",
       "world_bounds_m": [
         [
@@ -4073,7 +3824,7 @@
       "name": "V10_C06_main_bay1_long_hang_rail",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "long_hang_rail",
       "world_bounds_m": [
         [
@@ -4094,7 +3845,7 @@
       "name": "V10_C06_main_bay1_hanger_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4115,7 +3866,7 @@
       "name": "V10_C06_main_bay1_garment_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4136,7 +3887,7 @@
       "name": "V10_C06_main_bay1_hanger_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4157,7 +3908,7 @@
       "name": "V10_C06_main_bay1_garment_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4178,7 +3929,7 @@
       "name": "V10_C06_main_bay1_hanger_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4199,7 +3950,7 @@
       "name": "V10_C06_main_bay1_garment_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4220,7 +3971,7 @@
       "name": "V10_C06_main_bay1_hanger_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4241,7 +3992,7 @@
       "name": "V10_C06_main_bay1_garment_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4262,7 +4013,7 @@
       "name": "V10_C06_main_bay1_top_storage_shelf",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "top_storage_shelf",
       "world_bounds_m": [
         [
@@ -4283,7 +4034,7 @@
       "name": "V10_C06_main_bay2_middle_shelf",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "short_hang_mid_shelf",
       "world_bounds_m": [
         [
@@ -4304,7 +4055,7 @@
       "name": "V10_C06_main_bay2_top_storage_shelf",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "top_storage_shelf",
       "world_bounds_m": [
         [
@@ -4325,7 +4076,7 @@
       "name": "V10_C06_main_bay2_short_hang_rail_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "short_hang_rail",
       "world_bounds_m": [
         [
@@ -4346,7 +4097,7 @@
       "name": "V10_C06_main_bay2_level0_hanger_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4367,7 +4118,7 @@
       "name": "V10_C06_main_bay2_level0_garment_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4388,7 +4139,7 @@
       "name": "V10_C06_main_bay2_level0_hanger_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4409,7 +4160,7 @@
       "name": "V10_C06_main_bay2_level0_garment_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4430,7 +4181,7 @@
       "name": "V10_C06_main_bay2_level0_hanger_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4451,7 +4202,7 @@
       "name": "V10_C06_main_bay2_level0_garment_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4472,7 +4223,7 @@
       "name": "V10_C06_main_bay2_level0_hanger_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4493,7 +4244,7 @@
       "name": "V10_C06_main_bay2_level0_garment_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4514,7 +4265,7 @@
       "name": "V10_C06_main_bay2_short_hang_rail_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "short_hang_rail",
       "world_bounds_m": [
         [
@@ -4535,7 +4286,7 @@
       "name": "V10_C06_main_bay2_level1_hanger_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4556,7 +4307,7 @@
       "name": "V10_C06_main_bay2_level1_garment_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4577,7 +4328,7 @@
       "name": "V10_C06_main_bay2_level1_hanger_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4598,7 +4349,7 @@
       "name": "V10_C06_main_bay2_level1_garment_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4619,7 +4370,7 @@
       "name": "V10_C06_main_bay2_level1_hanger_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4640,7 +4391,7 @@
       "name": "V10_C06_main_bay2_level1_garment_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4661,7 +4412,7 @@
       "name": "V10_C06_main_bay2_level1_hanger_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4682,7 +4433,7 @@
       "name": "V10_C06_main_bay2_level1_garment_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4703,7 +4454,7 @@
       "name": "V10_C06_east_return_bay1_middle_shelf",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "short_hang_mid_shelf",
       "world_bounds_m": [
         [
@@ -4724,7 +4475,7 @@
       "name": "V10_C06_east_return_bay1_top_storage_shelf",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "top_storage_shelf",
       "world_bounds_m": [
         [
@@ -4745,7 +4496,7 @@
       "name": "V10_C06_east_return_bay1_short_hang_rail_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "short_hang_rail",
       "world_bounds_m": [
         [
@@ -4766,7 +4517,7 @@
       "name": "V10_C06_east_return_bay1_level0_hanger_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4787,7 +4538,7 @@
       "name": "V10_C06_east_return_bay1_level0_garment_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4808,7 +4559,7 @@
       "name": "V10_C06_east_return_bay1_level0_hanger_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4829,7 +4580,7 @@
       "name": "V10_C06_east_return_bay1_level0_garment_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4850,7 +4601,7 @@
       "name": "V10_C06_east_return_bay1_level0_hanger_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4871,7 +4622,7 @@
       "name": "V10_C06_east_return_bay1_level0_garment_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4892,7 +4643,7 @@
       "name": "V10_C06_east_return_bay1_level0_hanger_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4913,7 +4664,7 @@
       "name": "V10_C06_east_return_bay1_level0_garment_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4934,7 +4685,7 @@
       "name": "V10_C06_east_return_bay1_short_hang_rail_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "short_hang_rail",
       "world_bounds_m": [
         [
@@ -4955,7 +4706,7 @@
       "name": "V10_C06_east_return_bay1_level1_hanger_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -4976,7 +4727,7 @@
       "name": "V10_C06_east_return_bay1_level1_garment_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -4997,7 +4748,7 @@
       "name": "V10_C06_east_return_bay1_level1_hanger_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5018,7 +4769,7 @@
       "name": "V10_C06_east_return_bay1_level1_garment_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5039,7 +4790,7 @@
       "name": "V10_C06_east_return_bay1_level1_hanger_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5060,7 +4811,7 @@
       "name": "V10_C06_east_return_bay1_level1_garment_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5081,7 +4832,7 @@
       "name": "V10_C06_east_return_bay1_level1_hanger_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5102,7 +4853,7 @@
       "name": "V10_C06_east_return_bay1_level1_garment_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5123,7 +4874,7 @@
       "name": "V10_C06_east_return_bay2_middle_shelf",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "short_hang_mid_shelf",
       "world_bounds_m": [
         [
@@ -5144,7 +4895,7 @@
       "name": "V10_C06_east_return_bay2_top_storage_shelf",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "top_storage_shelf",
       "world_bounds_m": [
         [
@@ -5165,7 +4916,7 @@
       "name": "V10_C06_east_return_bay2_short_hang_rail_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "short_hang_rail",
       "world_bounds_m": [
         [
@@ -5186,7 +4937,7 @@
       "name": "V10_C06_east_return_bay2_level0_hanger_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5207,7 +4958,7 @@
       "name": "V10_C06_east_return_bay2_level0_garment_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5228,7 +4979,7 @@
       "name": "V10_C06_east_return_bay2_level0_hanger_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5249,7 +5000,7 @@
       "name": "V10_C06_east_return_bay2_level0_garment_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5270,7 +5021,7 @@
       "name": "V10_C06_east_return_bay2_level0_hanger_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5291,7 +5042,7 @@
       "name": "V10_C06_east_return_bay2_level0_garment_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5312,7 +5063,7 @@
       "name": "V10_C06_east_return_bay2_level0_hanger_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5333,7 +5084,7 @@
       "name": "V10_C06_east_return_bay2_level0_garment_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5354,7 +5105,7 @@
       "name": "V10_C06_east_return_bay2_short_hang_rail_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "short_hang_rail",
       "world_bounds_m": [
         [
@@ -5375,7 +5126,7 @@
       "name": "V10_C06_east_return_bay2_level1_hanger_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5396,7 +5147,7 @@
       "name": "V10_C06_east_return_bay2_level1_garment_0",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5417,7 +5168,7 @@
       "name": "V10_C06_east_return_bay2_level1_hanger_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5438,7 +5189,7 @@
       "name": "V10_C06_east_return_bay2_level1_garment_1",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5459,7 +5210,7 @@
       "name": "V10_C06_east_return_bay2_level1_hanger_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5480,7 +5231,7 @@
       "name": "V10_C06_east_return_bay2_level1_garment_2",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5501,7 +5252,7 @@
       "name": "V10_C06_east_return_bay2_level1_hanger_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "hanger",
       "world_bounds_m": [
         [
@@ -5522,7 +5273,7 @@
       "name": "V10_C06_east_return_bay2_level1_garment_3",
       "type": "MESH",
       "cabinet_id": "C06",
-      "variant": "conditional_short_wall_removal",
+      "variant": "user_confirmed_no_wall",
       "part": "generic_hanging_garment",
       "world_bounds_m": [
         [
@@ -5532,2626 +5283,6 @@
         [
           4.627249240875244,
           4.653249263763428
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent",
-      "type": "EMPTY",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "cabinet_root",
-      "world_bounds_m": null
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_left_side",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_side",
-      "world_bounds_m": [
-        [
-          8.550000190734863,
-          8.567999839782715
-        ],
-        [
-          3.8428571224212646,
-          4.442857265472412
-        ],
-        [
-          0.09200000762939453,
-          2.700000047683716
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_right_side",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_side",
-      "world_bounds_m": [
-        [
-          10.632000923156738,
-          10.65000057220459
-        ],
-        [
-          3.8428571224212646,
-          4.442857265472412
-        ],
-        [
-          0.09200000762939453,
-          2.700000047683716
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bottom",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_bottom",
-      "world_bounds_m": [
-        [
-          8.568000793457031,
-          10.631999969482422
-        ],
-        [
-          3.8428571224212646,
-          4.442857265472412
-        ],
-        [
-          0.09200000762939453,
-          0.10999999940395355
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_top",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_top",
-      "world_bounds_m": [
-        [
-          8.568000793457031,
-          10.631999969482422
-        ],
-        [
-          3.8428571224212646,
-          4.442857265472412
-        ],
-        [
-          2.681999921798706,
-          2.700000047683716
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_back",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_back",
-      "world_bounds_m": [
-        [
-          8.568000793457031,
-          10.631999969482422
-        ],
-        [
-          4.433856964111328,
-          4.442856788635254
-        ],
-        [
-          0.11000001430511475,
-          2.682000160217285
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_toe",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "recessed_toe",
-      "world_bounds_m": [
-        [
-          8.562000274658203,
-          10.63800048828125
-        ],
-        [
-          3.9053571224212646,
-          4.430356979370117
-        ],
-        [
-          0.012000001966953278,
-          0.09200000017881393
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_partition_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "bay_partition",
-      "world_bounds_m": [
-        [
-          9.241000175476074,
-          9.258999824523926
-        ],
-        [
-          3.8528571128845215,
-          4.432857036590576
-        ],
-        [
-          0.11000001430511475,
-          2.682000160217285
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_partition_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "bay_partition",
-      "world_bounds_m": [
-        [
-          9.941000938415527,
-          9.959000587463379
-        ],
-        [
-          3.8528571128845215,
-          4.432857036590576
-        ],
-        [
-          0.11000001430511475,
-          2.682000160217285
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent",
-      "type": "EMPTY",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "cabinet_root",
-      "world_bounds_m": null
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_left_side",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_side",
-      "world_bounds_m": [
-        [
-          10.050000190734863,
-          10.65000057220459
-        ],
-        [
-          5.691999912261963,
-          5.7099995613098145
-        ],
-        [
-          0.09200000762939453,
-          2.700000047683716
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_right_side",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_side",
-      "world_bounds_m": [
-        [
-          10.050000190734863,
-          10.65000057220459
-        ],
-        [
-          4.650000095367432,
-          4.667999744415283
-        ],
-        [
-          0.09200000762939453,
-          2.700000047683716
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bottom",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_bottom",
-      "world_bounds_m": [
-        [
-          10.050000190734863,
-          10.65000057220459
-        ],
-        [
-          4.667999744415283,
-          5.691999912261963
-        ],
-        [
-          0.09200000762939453,
-          0.10999999940395355
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_top",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_top",
-      "world_bounds_m": [
-        [
-          10.050000190734863,
-          10.65000057220459
-        ],
-        [
-          4.667999744415283,
-          5.691999912261963
-        ],
-        [
-          2.681999921798706,
-          2.700000047683716
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_back",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "case_back",
-      "world_bounds_m": [
-        [
-          10.640999794006348,
-          10.65000057220459
-        ],
-        [
-          4.667999744415283,
-          5.691999912261963
-        ],
-        [
-          0.11000001430511475,
-          2.682000160217285
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_toe",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "recessed_toe",
-      "world_bounds_m": [
-        [
-          10.112500190734863,
-          10.637499809265137
-        ],
-        [
-          4.661999702453613,
-          5.697999954223633
-        ],
-        [
-          0.012000001966953278,
-          0.09200000017881393
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_partition_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "bay_partition",
-      "world_bounds_m": [
-        [
-          10.0600004196167,
-          10.640000343322754
-        ],
-        [
-          5.171000003814697,
-          5.188999652862549
-        ],
-        [
-          0.11000001430511475,
-          2.682000160217285
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_minor_walnut_plinth_line",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "minor_walnut_line",
-      "world_bounds_m": [
-        [
-          8.570000648498535,
-          10.630000114440918
-        ],
-        [
-          3.8993570804595947,
-          3.9053571224212646
-        ],
-        [
-          0.04650000482797623,
-          0.08150000125169754
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_minor_walnut_plinth_line",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "minor_walnut_line",
-      "world_bounds_m": [
-        [
-          10.106499671936035,
-          10.112500190734863
-        ],
-        [
-          4.669999599456787,
-          5.690000057220459
-        ],
-        [
-          0.04650000482797623,
-          0.08150000125169754
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_leaf1_white_door",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "white_door",
-      "world_bounds_m": [
-        [
-          8.552000045776367,
-          8.898000717163086
-        ],
-        [
-          3.822857141494751,
-          3.8418571949005127
-        ],
-        [
-          0.09399998188018799,
-          2.697999954223633
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_leaf1_recessed_grip",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "door_grip",
-      "world_bounds_m": [
-        [
-          8.846500396728516,
-          8.855501174926758
-        ],
-        [
-          3.811357021331787,
-          3.821357250213623
-        ],
-        [
-          0.8999999761581421,
-          1.1399999856948853
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_leaf2_white_door",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "white_door",
-      "world_bounds_m": [
-        [
-          8.902000427246094,
-          9.248001098632812
-        ],
-        [
-          3.822857141494751,
-          3.8418571949005127
-        ],
-        [
-          0.09399998188018799,
-          2.697999954223633
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_leaf2_recessed_grip",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "door_grip",
-      "world_bounds_m": [
-        [
-          9.196499824523926,
-          9.205500602722168
-        ],
-        [
-          3.811357021331787,
-          3.821357250213623
-        ],
-        [
-          0.8999999761581421,
-          1.1399999856948853
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_leaf1_white_door",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "white_door",
-      "world_bounds_m": [
-        [
-          9.251999855041504,
-          9.598000526428223
-        ],
-        [
-          3.822857141494751,
-          3.8418571949005127
-        ],
-        [
-          0.09399998188018799,
-          2.697999954223633
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_leaf1_recessed_grip",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "door_grip",
-      "world_bounds_m": [
-        [
-          9.546500205993652,
-          9.555500984191895
-        ],
-        [
-          3.811357021331787,
-          3.821357250213623
-        ],
-        [
-          0.8999999761581421,
-          1.1399999856948853
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_leaf2_white_door",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "white_door",
-      "world_bounds_m": [
-        [
-          9.60200023651123,
-          9.94800090789795
-        ],
-        [
-          3.822857141494751,
-          3.8418571949005127
-        ],
-        [
-          0.09399998188018799,
-          2.697999954223633
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_leaf2_recessed_grip",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "door_grip",
-      "world_bounds_m": [
-        [
-          9.896499633789062,
-          9.905500411987305
-        ],
-        [
-          3.811357021331787,
-          3.821357250213623
-        ],
-        [
-          0.8999999761581421,
-          1.1399999856948853
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_leaf1_white_door",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "white_door",
-      "world_bounds_m": [
-        [
-          9.95199966430664,
-          10.29800033569336
-        ],
-        [
-          3.822857141494751,
-          3.8418571949005127
-        ],
-        [
-          0.09399998188018799,
-          2.697999954223633
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_leaf1_recessed_grip",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "door_grip",
-      "world_bounds_m": [
-        [
-          10.246500015258789,
-          10.255500793457031
-        ],
-        [
-          3.811357021331787,
-          3.821357250213623
-        ],
-        [
-          0.8999999761581421,
-          1.1399999856948853
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_leaf2_white_door",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "white_door",
-      "world_bounds_m": [
-        [
-          10.302000045776367,
-          10.648000717163086
-        ],
-        [
-          3.822857141494751,
-          3.8418571949005127
-        ],
-        [
-          0.09399998188018799,
-          2.697999954223633
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_leaf2_recessed_grip",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "door_grip",
-      "world_bounds_m": [
-        [
-          10.596500396728516,
-          10.605501174926758
-        ],
-        [
-          3.811357021331787,
-          3.821357250213623
-        ],
-        [
-          0.8999999761581421,
-          1.1399999856948853
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_leaf1_white_door",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "white_door",
-      "world_bounds_m": [
-        [
-          10.030000686645508,
-          10.048999786376953
-        ],
-        [
-          5.181999683380127,
-          5.7079997062683105
-        ],
-        [
-          0.09399998188018799,
-          2.697999954223633
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_leaf1_recessed_grip",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "door_grip",
-      "world_bounds_m": [
-        [
-          10.018500328063965,
-          10.0285005569458
-        ],
-        [
-          5.24970006942749,
-          5.258699893951416
-        ],
-        [
-          0.8999999761581421,
-          1.1399999856948853
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_leaf1_white_door",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "white_door",
-      "world_bounds_m": [
-        [
-          10.030000686645508,
-          10.048999786376953
-        ],
-        [
-          4.6519999504089355,
-          5.177999973297119
-        ],
-        [
-          0.09399998188018799,
-          2.697999954223633
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_leaf1_recessed_grip",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "door_grip",
-      "world_bounds_m": [
-        [
-          10.018500328063965,
-          10.0285005569458
-        ],
-        [
-          4.719699859619141,
-          4.728699684143066
-        ],
-        [
-          0.8999999761581421,
-          1.1399999856948853
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_long_top_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "long_hang_shelf",
-      "world_bounds_m": [
-        [
-          8.567999839782715,
-          9.241000175476074
-        ],
-        [
-          3.8533568382263184,
-          4.422357082366943
-        ],
-        [
-          1.5810000896453857,
-          1.5989999771118164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_long_hang_rail",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "long_hang_rail",
-      "world_bounds_m": [
-        [
-          8.593000411987305,
-          9.215999603271484
-        ],
-        [
-          4.115857124328613,
-          4.139857292175293
-        ],
-        [
-          1.4980000257492065,
-          1.5219999551773071
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_hanger_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          8.764217376708984,
-          8.772217750549316
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.400999903678894,
-          1.4787755012512207
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_garment_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          8.755218505859375,
-          8.781217575073242
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.18000000715255737,
-          1.4000000953674316
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_hanger_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          8.855072975158691,
-          8.863073348999023
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.400999903678894,
-          1.4787755012512207
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_garment_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          8.846073150634766,
-          8.872072219848633
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.18000000715255737,
-          1.4000000953674316
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_hanger_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          8.945927619934082,
-          8.953927993774414
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.400999903678894,
-          1.4787755012512207
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_garment_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          8.936928749084473,
-          8.96292781829834
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.18000000715255737,
-          1.4000000953674316
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_hanger_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          9.036783218383789,
-          9.044782638549805
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.400999903678894,
-          1.4787755012512207
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_garment_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          9.027783393859863,
-          9.05378246307373
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.18000000715255737,
-          1.4000000953674316
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay1_top_storage_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "top_storage_shelf",
-      "world_bounds_m": [
-        [
-          8.567999839782715,
-          9.241000175476074
-        ],
-        [
-          3.8533568382263184,
-          4.422357082366943
-        ],
-        [
-          2.3309998512268066,
-          2.3489999771118164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_middle_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_mid_shelf",
-      "world_bounds_m": [
-        [
-          9.259000778198242,
-          9.940999984741211
-        ],
-        [
-          3.8533568382263184,
-          4.422357082366943
-        ],
-        [
-          1.1910001039505005,
-          1.2089999914169312
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_top_storage_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "top_storage_shelf",
-      "world_bounds_m": [
-        [
-          9.259000778198242,
-          9.940999984741211
-        ],
-        [
-          3.8533568382263184,
-          4.422357082366943
-        ],
-        [
-          2.3309998512268066,
-          2.3489999771118164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_short_hang_rail_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_rail",
-      "world_bounds_m": [
-        [
-          9.284000396728516,
-          9.916000366210938
-        ],
-        [
-          4.115857124328613,
-          4.139857292175293
-        ],
-        [
-          1.1380000114440918,
-          1.1619999408721924
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level0_hanger_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          9.457895278930664,
-          9.465895652770996
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level0_garment_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          9.448895454406738,
-          9.474894523620605
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level0_hanger_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          9.549964904785156,
-          9.557965278625488
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level0_garment_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          9.540966033935547,
-          9.566965103149414
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level0_hanger_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          9.642035484313965,
-          9.650035858154297
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level0_garment_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          9.633035659790039,
-          9.659034729003906
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level0_hanger_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          9.734105110168457,
-          9.742105484008789
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level0_garment_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          9.725106239318848,
-          9.751105308532715
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_short_hang_rail_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_rail",
-      "world_bounds_m": [
-        [
-          9.284000396728516,
-          9.916000366210938
-        ],
-        [
-          4.115857124328613,
-          4.139857292175293
-        ],
-        [
-          2.23799991607666,
-          2.26200008392334
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level1_hanger_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          9.457895278930664,
-          9.465895652770996
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level1_garment_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          9.448895454406738,
-          9.474894523620605
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level1_hanger_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          9.549964904785156,
-          9.557965278625488
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level1_garment_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          9.540966033935547,
-          9.566965103149414
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level1_hanger_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          9.642035484313965,
-          9.650035858154297
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level1_garment_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          9.633035659790039,
-          9.659034729003906
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level1_hanger_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          9.734105110168457,
-          9.742105484008789
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay2_level1_garment_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          9.725106239318848,
-          9.751105308532715
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_middle_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_mid_shelf",
-      "world_bounds_m": [
-        [
-          9.959000587463379,
-          10.632000923156738
-        ],
-        [
-          3.8533568382263184,
-          4.422357082366943
-        ],
-        [
-          1.1910001039505005,
-          1.2089999914169312
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_top_storage_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "top_storage_shelf",
-      "world_bounds_m": [
-        [
-          9.959000587463379,
-          10.632000923156738
-        ],
-        [
-          3.8533568382263184,
-          4.422357082366943
-        ],
-        [
-          2.3309998512268066,
-          2.3489999771118164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_short_hang_rail_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_rail",
-      "world_bounds_m": [
-        [
-          9.984001159667969,
-          10.607000350952148
-        ],
-        [
-          4.115857124328613,
-          4.139857292175293
-        ],
-        [
-          1.1380000114440918,
-          1.1619999408721924
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level0_hanger_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.155218124389648,
-          10.163217544555664
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level0_garment_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.146218299865723,
-          10.17221736907959
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level0_hanger_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.246072769165039,
-          10.254073143005371
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level0_garment_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.237072944641113,
-          10.26307201385498
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level0_hanger_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.33692741394043,
-          10.344927787780762
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level0_garment_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.32792854309082,
-          10.353927612304688
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level0_hanger_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.427783012390137,
-          10.435783386230469
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level0_garment_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.418783187866211,
-          10.444782257080078
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_short_hang_rail_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_rail",
-      "world_bounds_m": [
-        [
-          9.984001159667969,
-          10.607000350952148
-        ],
-        [
-          4.115857124328613,
-          4.139857292175293
-        ],
-        [
-          2.23799991607666,
-          2.26200008392334
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level1_hanger_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.155218124389648,
-          10.163217544555664
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level1_garment_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.146218299865723,
-          10.17221736907959
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level1_hanger_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.246072769165039,
-          10.254073143005371
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level1_garment_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.237072944641113,
-          10.26307201385498
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level1_hanger_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.33692741394043,
-          10.344927787780762
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level1_garment_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.32792854309082,
-          10.353927612304688
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level1_hanger_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.427783012390137,
-          10.435783386230469
-        ],
-        [
-          3.9265356063842773,
-          4.329178333282471
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_south_independent_bay3_level1_garment_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.418783187866211,
-          10.444782257080078
-        ],
-        [
-          3.947857141494751,
-          4.307857036590576
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_middle_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_mid_shelf",
-      "world_bounds_m": [
-        [
-          10.060500144958496,
-          10.629500389099121
-        ],
-        [
-          5.188999652862549,
-          5.691999912261963
-        ],
-        [
-          1.1910001039505005,
-          1.2089999914169312
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_top_storage_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "top_storage_shelf",
-      "world_bounds_m": [
-        [
-          10.060500144958496,
-          10.629500389099121
-        ],
-        [
-          5.188999652862549,
-          5.691999912261963
-        ],
-        [
-          2.3309998512268066,
-          2.3489999771118164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_short_hang_rail_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_rail",
-      "world_bounds_m": [
-        [
-          10.322999954223633,
-          10.347000122070312
-        ],
-        [
-          5.2139997482299805,
-          5.666999816894531
-        ],
-        [
-          1.1380000114440918,
-          1.1619999408721924
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level0_hanger_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.538357257843018,
-          5.546357154846191
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level0_garment_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.529357433319092,
-          5.555357456207275
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level0_hanger_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.470452308654785,
-          5.478452205657959
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level0_garment_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.461452484130859,
-          5.487452507019043
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level0_hanger_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.402547359466553,
-          5.410547256469727
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level0_garment_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.393547534942627,
-          5.4195475578308105
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level0_hanger_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.33464241027832,
-          5.342642307281494
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level0_garment_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.325642108917236,
-          5.35164213180542
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_short_hang_rail_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_rail",
-      "world_bounds_m": [
-        [
-          10.322999954223633,
-          10.347000122070312
-        ],
-        [
-          5.2139997482299805,
-          5.666999816894531
-        ],
-        [
-          2.23799991607666,
-          2.26200008392334
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level1_hanger_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.538357257843018,
-          5.546357154846191
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level1_garment_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.529357433319092,
-          5.555357456207275
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level1_hanger_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.470452308654785,
-          5.478452205657959
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level1_garment_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.461452484130859,
-          5.487452507019043
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level1_hanger_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.402547359466553,
-          5.410547256469727
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level1_garment_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.393547534942627,
-          5.4195475578308105
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level1_hanger_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.33464241027832,
-          5.342642307281494
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay1_level1_garment_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.325642108917236,
-          5.35164213180542
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_middle_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_mid_shelf",
-      "world_bounds_m": [
-        [
-          10.060500144958496,
-          10.629500389099121
-        ],
-        [
-          4.667999744415283,
-          5.171000003814697
-        ],
-        [
-          1.1910001039505005,
-          1.2089999914169312
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_top_storage_shelf",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "top_storage_shelf",
-      "world_bounds_m": [
-        [
-          10.060500144958496,
-          10.629500389099121
-        ],
-        [
-          4.667999744415283,
-          5.171000003814697
-        ],
-        [
-          2.3309998512268066,
-          2.3489999771118164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_short_hang_rail_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_rail",
-      "world_bounds_m": [
-        [
-          10.322999954223633,
-          10.347000122070312
-        ],
-        [
-          4.692999839782715,
-          5.145999908447266
-        ],
-        [
-          1.1380000114440918,
-          1.1619999408721924
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level0_hanger_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.017357349395752,
-          5.025357246398926
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level0_garment_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.008357524871826,
-          5.03435754776001
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level0_hanger_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          4.9494524002075195,
-          4.957452297210693
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level0_garment_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          4.9404520988464355,
-          4.966452121734619
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level0_hanger_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          4.881547451019287,
-          4.889547348022461
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level0_garment_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          4.872547149658203,
-          4.898547172546387
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level0_hanger_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          4.813642501831055,
-          4.8216423988342285
-        ],
-        [
-          1.0409998893737793,
-          1.1187753677368164
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level0_garment_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          4.804642200469971,
-          4.830642223358154
-        ],
-        [
-          0.3699999749660492,
-          1.0399999618530273
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_short_hang_rail_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "short_hang_rail",
-      "world_bounds_m": [
-        [
-          10.322999954223633,
-          10.347000122070312
-        ],
-        [
-          4.692999839782715,
-          5.145999908447266
-        ],
-        [
-          2.23799991607666,
-          2.26200008392334
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level1_hanger_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          5.017357349395752,
-          5.025357246398926
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level1_garment_0",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          5.008357524871826,
-          5.03435754776001
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level1_hanger_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          4.9494524002075195,
-          4.957452297210693
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level1_garment_1",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          4.9404520988464355,
-          4.966452121734619
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level1_hanger_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          4.881547451019287,
-          4.889547348022461
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level1_garment_2",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          4.872547149658203,
-          4.898547172546387
-        ],
-        [
-          1.46999990940094,
-          2.1399998664855957
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level1_hanger_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "hanger",
-      "world_bounds_m": [
-        [
-          10.133679389953613,
-          10.536321640014648
-        ],
-        [
-          4.813642501831055,
-          4.8216423988342285
-        ],
-        [
-          2.1410000324249268,
-          2.2187752723693848
-        ]
-      ]
-    },
-    {
-      "name": "V10_C06_ALT_north_independent_bay2_level1_garment_3",
-      "type": "MESH",
-      "cabinet_id": "C06_ALT",
-      "variant": "retained_short_wall_independent_cabinets",
-      "part": "generic_hanging_garment",
-      "world_bounds_m": [
-        [
-          10.154999732971191,
-          10.515000343322754
-        ],
-        [
-          4.804642200469971,
-          4.830642223358154
         ],
         [
           1.46999990940094,
@@ -8216,5 +5347,10 @@
       "world_bounds_m": null
     }
   ],
-  "publication_note": "公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json；现场尺寸与施工仍待核。"
+  "inherited_geometry_from_version": 10,
+  "current_C_wall_status": "no_wall_user_confirmed",
+  "demolition_requested": false,
+  "user_confirmation_file": "master-wall-confirmation-v11.json",
+  "inherited_source_spec": "bedroom-joinery-spec-v10.json (historical V10 archive)",
+  "publication_note": "V12公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json。-v11规格是沿用的已确认洗衣柜和卧室方案，不是旧版模型。实际举架和现场安装尺寸尚未核实。"
 }

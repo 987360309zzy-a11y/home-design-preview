@@ -1,0 +1,14 @@
+{
+  "version": 11,
+  "source_kind": "user_confirmation",
+  "source_id": "user-bedroomC-no-wall-20261007",
+  "user_statement": "C条件拆墙后的连续L柜（那个地方没有墙）",
+  "current_condition": "no_wall_user_confirmed",
+  "demolition_requested": false,
+  "geometry_changed_this_revision": false,
+  "supersedes": "V10 conditional removal / retained-wall alternative",
+  "historical_V10_files_modified": false,
+  "site_verified": false,
+  "actual_room_height_m": null,
+  "publication_note": "V12公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json。-v11规格是沿用的已确认洗衣柜和卧室方案，不是旧版模型。实际举架和现场安装尺寸尚未核实。"
+}

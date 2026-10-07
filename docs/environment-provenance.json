@@ -1,0 +1,12 @@
+{
+  "asset": "Studio Small 09",
+  "author": "Sergej Majboroda",
+  "license": "CC0",
+  "source": "https://polyhaven.com/a/studio_small_09",
+  "license_source": "https://polyhaven.com/license",
+  "download_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/studio_small_09_1k.hdr",
+  "size_bytes": 1615248,
+  "original_sha256": "e7cfda5f4e98e623db12b8bfd0184e048488e4855d9c83e2751fb44a32e80c45",
+  "use": "WebGL environment reflections; not a representation of the real site lighting",
+  "publication_note": "V12公开静态副本；original_*sha256 指本地原件。公开文件指纹见 publication-manifest.json。-v11规格是沿用的已确认洗衣柜和卧室方案，不是旧版模型。实际举架和现场安装尺寸尚未核实。"
+}
